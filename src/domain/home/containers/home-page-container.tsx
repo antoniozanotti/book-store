@@ -4,10 +4,10 @@ import { ExploreByCategoryComponent } from "@/domain/category/components/explore
 
 export function HomePageContainer() {
   return (
-    <>
+    <main>
       <NewReleaseBooksContainer />
       <ExploreByCategoryComponent />
       <FeaturedAuthorsContainer />
-    </>
+    </main>
   );
 }

@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { PageType } from "@/types/page-type";
-import { handlePageBySlugAndType } from "@/helpers/handle-page-by-slug-and-type";
 import { HomePageContainer } from "@/domain/home/containers/home-page-container";
 
 export function generateMetadata(): Metadata {
