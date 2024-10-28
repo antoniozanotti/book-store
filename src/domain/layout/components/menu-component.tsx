@@ -18,7 +18,7 @@ export function MenuComponent({ ...props }: React.ComponentProps<"nav">) {
     : navClasses;
 
   return (
-    <nav {...props}>
+    <nav {...props} aria-label="Main Navigation">
       <ul className="flex flex-col lg:flex-row justify-center lg:w-fit mx-auto overflow-hidden lg:gap-[2px] lg:rounded-full leading-[16px] text-primary-800">
         <MenuItemComponent href="/about-us" title="About Us" />
         <FormatedDivider />

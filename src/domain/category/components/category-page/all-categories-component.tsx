@@ -10,7 +10,7 @@ export function AllCategoriesComponent() {
   const currentCategory = useCategoryPageContext().state?.category;
   
   return (
-    <nav className="p-10">
+    <nav className="p-10" aria-label="Categories">
       <UiTitleComponent level="h2" size="small">
         Categories
       </UiTitleComponent>

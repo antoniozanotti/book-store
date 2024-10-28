@@ -10,31 +10,35 @@ test.describe("Category", () => {
     
     const content = page.getByTestId("content");
 
-    // Meta title
-    await expect(page).toHaveTitle("Arts and Entertainment Books");
+    await test.step("should show meta title", async () => {
+      await expect(page).toHaveTitle("Arts and Entertainment Books");
+    });
 
-    // Categories
-    if (isMobile) {
-      await expect(content.getByText("Categories")).toBeHidden();
-    } else {
-      await expect(content.getByText("Categories")).toBeVisible();
-      await expect(
-        content.getByRole("listitem").filter({ hasText: /Horror/ })
-      ).toBeVisible();
-      await expect(
-        content.getByRole("listitem").filter({ hasText: /Romance/ })
-      ).toBeVisible();
-    }
+    await test.step("should show categories", async () => {
+      if (isMobile) {
+        await expect(content.getByText("Categories")).toBeHidden();
+      } else {
+        await expect(content.getByText("Categories")).toBeVisible();
+        await expect(
+          content.getByRole("listitem").filter({ hasText: /Horror/ })
+        ).toBeVisible();
+        await expect(
+          content.getByRole("listitem").filter({ hasText: /Romance/ })
+        ).toBeVisible();
+      }
+    });
     
-    // Heading
-    await expect(
-      page.getByRole("heading", { level: 1, name: "Arts and Entertainment" })
-    ).toBeVisible();
+    await test.step("should show heading", async () => {
+      await expect(
+        page.getByRole("heading", { level: 1, name: "Arts and Entertainment" })
+      ).toBeVisible();
+    });
     
-    // Product List
-    await expect(
-      await content.locator("_react=ProductListItemComponent").count()
-    ).toBeGreaterThan(4);
+    await test.step("should show product list", async () => {
+      await expect(
+        await content.locator("_react=ProductListItemComponent").count()
+      ).toBeGreaterThan(4);
+    });
     
     await stepMatchScreenshot(test, page);
     await stepNoAccessibilityViolations(test, page);

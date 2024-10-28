@@ -66,7 +66,7 @@ export function FooterComponent() {
             >
               Help
             </UiTitleComponent>
-            <nav aria-labelledby="footer-help" className="lg:py-2">
+            <nav aria-labelledby="footer-help" className="lg:py-2" aria-label="Help">
               <ul className="bg-primary-200 lg:bg-transparent divide-y lg:divide-y-0">
                 <FooterItemComponent title="Contact Us" />
                 <FooterItemComponent title="Guarantee" />
@@ -85,7 +85,7 @@ export function FooterComponent() {
             >
               Explore
             </UiTitleComponent>
-            <nav aria-labelledby="footer-explore" className="lg:py-2">
+            <nav aria-labelledby="footer-explore" className="lg:py-2" aria-label="Explore">
               <ul className="bg-primary-200 lg:bg-transparent divide-y lg:divide-y-0">
                 <FooterItemComponent title="Featured Authors" />
                 <FooterItemComponent title="New Release Books" />

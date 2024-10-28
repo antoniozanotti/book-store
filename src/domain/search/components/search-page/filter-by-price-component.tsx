@@ -26,7 +26,7 @@ export function FilterByPriceComponent() {
   return (
     <div className="flex flex-col gap-2 w-full h-full max-w-md items-start justify-center overflow-hidden">
       <Slider
-        label=" "
+        label="Price"
         size="sm"
         formatOptions={{ style: "currency", currency: "USD" }}
         step={10}

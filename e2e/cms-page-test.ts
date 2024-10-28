@@ -8,15 +8,15 @@ test.describe("CMS Page", () => {
     await page.goto("/contact-us");
     await closeCautionModal(page);
     
-    const content = page.getByTestId("content");
+    await test.step("should show meta title", async () => {
+      await expect(page).toHaveTitle("Contact Us");
+    });
     
-    // Meta title
-    await expect(page).toHaveTitle("Contact Us");
-    
-    // Heading
-    await expect(
-      page.getByRole("heading", { level: 1, name: "Contact Us" })
-    ).toBeVisible();
+    await test.step("should show heading", async () => {
+      await expect(
+        page.getByRole("heading", { level: 1, name: "Contact Us" })
+      ).toBeVisible();
+    });
     
     await stepMatchScreenshot(test, page);
     await stepNoAccessibilityViolations(test, page);

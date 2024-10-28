@@ -17,14 +17,9 @@ export function SearchFiltersDesktopComponent() {
       </div>
       <div className="pt-10">
         <UiTitleComponent size="small" level="h2">
-          Filter by Price
+          Additional Filters
         </UiTitleComponent>
         <FilterByPriceComponent />
-      </div>
-      <div className="pt-10">
-        <UiTitleComponent size="small" level="h2">
-          Filter by Publication Year
-        </UiTitleComponent>
         <FilterByYearComponent />
       </div>
       <div className="pt-10">

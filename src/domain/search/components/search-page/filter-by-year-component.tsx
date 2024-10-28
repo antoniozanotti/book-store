@@ -24,9 +24,9 @@ export function FilterByYearComponent() {
   }
 
   return (
-    <div className="flex flex-col gap-2 w-full h-full max-w-md items-start justify-center overflow-hidden">
+    <div className="flex flex-col gap-2 w-full h-full max-w-md items-start justify-center overflow-hidden pt-10">
       <Slider
-        label=" "
+        label="Publication year"
         size="sm"
         formatOptions={{ useGrouping: false }}
         step={1}

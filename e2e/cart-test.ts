@@ -9,23 +9,27 @@ test.describe("Cart", () => {
     await closeCautionModal(page);
     const content = page.getByTestId("content");
 
-    // Meta title
-    await expect(page).toHaveTitle("Cart");
+    await test.step("should show meta title", async () => {
+      await expect(page).toHaveTitle("Cart");
+    });
 
-    // Heading
-    await expect(
-      page.getByRole("heading", { level: 1, name: "Shopping Cart" })
-    ).toBeVisible();
+    await test.step("should show heading", async () => {
+      await expect(
+        page.getByRole("heading", { level: 1, name: "Shopping Cart" })
+      ).toBeVisible();
+    });
 
-    // Info
-    await expect(
-      content.getByText("There are no items in your shopping cart.")
-    ).toBeVisible();
+    await test.step("should show info", async () => {
+      await expect(
+        content.getByText("There are no items in your shopping cart.")
+      ).toBeVisible();
+    });
 
-    // Continue Shopping
-    await expect(
-      content.getByRole("link").filter({ hasText: /^Continue Shopping$/ })
-    ).toBeVisible();
+    await test.step("should show continue shopping", async () => {
+      await expect(
+        content.getByRole("link").filter({ hasText: /^Continue Shopping$/ })
+      ).toBeVisible();
+    });
 
     await stepMatchScreenshot(test, page);
     await stepNoAccessibilityViolations(test, page);
@@ -50,53 +54,57 @@ test.describe("Cart", () => {
     });
     await addToCartButton.click();
 
-    // URL
-    await expect(page).toHaveURL("/cart");
+    await test.step("should redirect to cart", async () => {
+      await expect(page).toHaveURL("/cart");
+    });
 
-    // Subtotal
-    await expect(page.getByText("(1 product)")).toHaveCount(2);
-    await expect(
-      page.getByText(new RegExp(`^Subtotal(.*)\\$${productPrice.toFixed(2)}$`))
-    ).toHaveCount(2);
+    await test.step("should show subtotal", async () => {
+      await expect(page.getByText("(1 product)")).toHaveCount(2);
+      await expect(
+        page.getByText(new RegExp(`^Subtotal(.*)\\$${productPrice.toFixed(2)}$`))
+      ).toHaveCount(2);
+    });
 
-    // Checkout Button
-    await expect(page.getByRole("link", { name: "CHECKOUT" })).toBeVisible();
+    await test.step("should show checkout button", async () => {
+      await expect(page.getByRole("link", { name: "CHECKOUT" })).toBeVisible();
+    });
 
-    // Shipping
-    await expect(page.getByText("Ship these for free.")).toBeVisible();
+    await test.step("should show shipping", async () => {
+      await expect(page.getByText("Ship these for free.")).toBeVisible();
+    });
 
-    // Info
-    await expect(
-      page.getByText("Please verify that your shipping")
-    ).toBeVisible();
+    await test.step("should show info", async () => {
+      await expect(
+        page.getByText("Please verify that your shipping")
+      ).toBeVisible();
+    });
+    
+    await test.step("should show cart item", async () => {
+      const products = page.locator("_react=CartItemComponent");
+      await expect(products).toHaveCount(1);
 
-    // Cart Items
-    const products = page.locator("_react=CartItemComponent");
-    await expect(products).toHaveCount(1);
-
-    // Cart Item
-    const product = products.first();
-    await expect(product.getByRole("heading", { level: 2 })).toBeVisible();
-    await expect(product.getByText(/by (.*)/)).toBeVisible();
-    await expect(product.getByText(/^ISBN: ([0-9-]*)$/)).toBeVisible();
-    await expect(product.getByRole("button", { name: "remove" })).toBeVisible();
-    const decreaseButton = product.getByLabel("decrease quantity");
-    const quantityLabel = product.getByLabel("quantity", { exact: true });
-    const increaseButton = product.getByLabel("increase quantity");
-    const cartItemSubtotal = product.getByLabel("cart item subtotal");
-    await expect(decreaseButton).toBeVisible();
-    await expect(quantityLabel).toHaveText("1");
-    await expect(increaseButton).toBeVisible();
-    await expect(cartItemSubtotal).toHaveText(
-      new RegExp(`^\\$${productPrice.toFixed(2)}$`)
-    );
+      const product = products.first();
+      await expect(product.getByRole("heading", { level: 2 })).toBeVisible();
+      await expect(product.getByText(/by (.*)/)).toBeVisible();
+      await expect(product.getByText(/^ISBN: ([0-9-]*)$/)).toBeVisible();
+      await expect(product.getByRole("button", { name: "remove" })).toBeVisible();
+      const decreaseButton = product.getByLabel("decrease quantity");
+      const quantityLabel = product.getByLabel("quantity", { exact: true });
+      const increaseButton = product.getByLabel("increase quantity");
+      const cartItemSubtotal = product.getByLabel("cart item subtotal");
+      await expect(decreaseButton).toBeVisible();
+      await expect(quantityLabel).toHaveText("1");
+      await expect(increaseButton).toBeVisible();
+      await expect(cartItemSubtotal).toHaveText(
+        new RegExp(`^\\$${productPrice.toFixed(2)}$`)
+      );
+    });
 
     await stepMatchScreenshot(test, page);
     await stepNoAccessibilityViolations(test, page);
   });
 
   test("should allow me change quantity", async ({ page }) => {
-    // Go to Home
     await page.goto("/");
     await closeCautionModal(page);
 
