@@ -1,28 +1,14 @@
 import { ProductWithPageAndBookPrisma } from "@/domain/product/types/product-prisma";
-import prisma from "@/lib/db";
+import { getProductById } from "@/domain/product/services/product-service";
 
-type Params = {
-  id: string;
-};
-
-export async function GET(request: Request, context: { params: Params }) {
+export async function GET(
+  request: Request,
+  context: { params: { id: string } }
+) {
   const id = JSON.parse(context.params.id);
-  try {
-    const product: ProductWithPageAndBookPrisma =
-      await prisma.product.findFirstOrThrow({
-        where: {
-          id: id,
-        },
-        include: {
-          page: true,
-          book: {
-            include: {
-              authors: true,
-            },
-          },
-        },
-      });
 
+  try {
+    const product: ProductWithPageAndBookPrisma = await getProductById(id);
     return Response.json({ product });
   } catch (error) {
     return Response.json({});

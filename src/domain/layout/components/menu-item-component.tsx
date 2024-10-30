@@ -1,22 +1,16 @@
+import { MenuItemComponentInterface } from "./menu-item-component-interface";
 import Link from "next/link";
-import { ReactNode } from "react";
-
-export interface MenuItemProps extends React.ComponentProps<"li"> {
-  href?: string;
-  title?: string;
-  children?: ReactNode;
-}
 
 export function MenuItemComponent({
   href,
   title,
   children,
   ...props
-}: MenuItemProps) {
-  let liClasses = "bg-primary-300 hover:bg-primary-400";
+}: MenuItemComponentInterface) {
+  const liStyles = "bg-primary-300 hover:bg-primary-400";
   props.className = props.className
-    ? `${liClasses} ${props.className}`
-    : liClasses;
+    ? `${liStyles} ${props.className}`
+    : liStyles;
     
   return (
     <li {...props}>

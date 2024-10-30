@@ -1,21 +1,11 @@
+import { getCmsPageBySlug } from "../services/cms-page-service";
 import { CmsPageProvider } from "../contexts/cms-page-context";
-import prisma from "@/lib/db";
-import { CmsPageWithPagePrisma } from "../types/cms-prisma";
-import { notFound } from "next/navigation";
 import { CmsPageComponent } from "../components/cms-page-component";
+import { notFound } from "next/navigation";
 
 export async function CmsPageContainer({ slug }: { slug: string }) {
   try {
-    const cmsPage: CmsPageWithPagePrisma = await prisma.cmsPage.findFirstOrThrow({
-      where: {
-        page: {
-          slug: slug,
-        },
-      },
-      include: {
-        page: true,
-      },
-    });
+    const cmsPage = await getCmsPageBySlug(slug);
 
     return (
       <CmsPageProvider cmsPage={JSON.parse(JSON.stringify(cmsPage))}>

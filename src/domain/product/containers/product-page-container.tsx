@@ -1,85 +1,11 @@
+import { getProductWithRelatedProductsBySlug } from "../services/product-service";
 import { ProductPageProvider } from "../contexts/product-page-context";
-import prisma from "@/lib/db";
-import { ProductWithBookAndCategoriesPrisma } from "../types/product-prisma";
-import { notFound } from "next/navigation";
 import { ProductPageComponent } from "../components/product-page/product-page-component";
-import { PageType } from "@/types/page-type";
+import { notFound } from "next/navigation";
 
 export async function ProductPageContainer({ slug }: { slug: string }) {
   try {
-    const product: ProductWithBookAndCategoriesPrisma =
-      await prisma.product.findFirstOrThrow({
-        where: {
-          page: {
-            type: PageType.PRODUCT,
-            slug: slug,
-          },
-        },
-        include: {
-          page: true,
-          book: {
-            include: {
-              authors: {
-                include: {
-                  page: true,
-                  books: {
-                    where: {
-                      product: {
-                        page: {
-                          slug: {
-                            not: slug,
-                          },
-                        },
-                      },
-                    },
-                    take: 3,
-                    include: {
-                      product: {
-                        include: {
-                          page: true,
-                          book: {
-                            include: {
-                              authors: true,
-                            },
-                          },
-                        },
-                      },
-                    },
-                  },
-                },
-              },
-              publisher: {
-                include: {
-                  page: true,
-                },
-              },
-            },
-          },
-          categories: {
-            include: {
-              page: true,
-              products: {
-                where: {
-                  page: {
-                    slug: {
-                      not: slug,
-                    },
-                  },
-                },
-                take: 3,
-                include: {
-                  page: true,
-                  book: {
-                    include: {
-                      authors: true,
-                    },
-                  },
-                },
-              },
-            },
-          },
-        },
-      });
+    const product = await getProductWithRelatedProductsBySlug(slug);
 
     return (
       <ProductPageProvider product={JSON.parse(JSON.stringify(product))}>

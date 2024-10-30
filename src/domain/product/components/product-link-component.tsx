@@ -1,13 +1,6 @@
-import { ReactNode } from "react";
-import { ProductWithPageAndBookPrisma } from "../types/product-prisma";
-import Link from "next/link";
+import { ProductLinkComponentInterface } from "./product-link-component-interface";
 import { getAuthorsByProduct } from "../helpers/get-authors-by-product";
-
-export interface ProductLinkComponentInterface
-  extends React.ComponentProps<"a"> {
-  product: ProductWithPageAndBookPrisma;
-  children: ReactNode;
-}
+import Link from "next/link";
 
 export function ProductLinkComponent({
   product,

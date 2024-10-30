@@ -10,7 +10,5 @@ export function generateMetadata(): Metadata {
 }
 
 export default async function NotFound() {
-  return (
-    <NotFoundPageContainer />
-  );
+  return <NotFoundPageContainer />;
 }

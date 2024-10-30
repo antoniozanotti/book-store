@@ -56,16 +56,10 @@ export function SearchFiltersMobileComponent() {
                 </AccordionItem>
                 <AccordionItem
                   key="2"
-                  aria-label="Filter by Price"
-                  title="Price"
+                  aria-label="Additional Filters"
+                  title="Additional Filters"
                 >
                   <FilterByPriceComponent />
-                </AccordionItem>
-                <AccordionItem
-                  key="3"
-                  aria-label="Filter by Publication Year"
-                  title="Publication Year"
-                >
                   <FilterByYearComponent />
                 </AccordionItem>
               </Accordion>

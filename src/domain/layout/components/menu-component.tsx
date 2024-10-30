@@ -9,13 +9,13 @@ import { Fragment } from "react";
 
 export function MenuComponent({ ...props }: React.ComponentProps<"nav">) {
   const menuState = useMenuContext().state;
-  const showMenuMobileClass = menuState.isOpen ? "" : "hidden";
+  const showMenuMobileStyles = menuState.isOpen ? "" : "hidden";
   const layoutState = useLayoutContext().state;
   const categories = layoutState.categories;
-  let navClasses = `${showMenuMobileClass} lg:block`;
+  const navStyles = `${showMenuMobileStyles} lg:block`;
   props.className = props.className
-    ? `${navClasses} ${props.className}`
-    : navClasses;
+    ? `${navStyles} ${props.className}`
+    : navStyles;
 
   return (
     <nav {...props} aria-label="Main Navigation">

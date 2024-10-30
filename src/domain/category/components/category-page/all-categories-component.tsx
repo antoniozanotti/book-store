@@ -1,9 +1,9 @@
 "use client";
 
 import { useLayoutContext } from "@/domain/layout/contexts/layout-context";
+import { useCategoryPageContext } from "../../contexts/category-page-context";
 import { UiTitleComponent } from "@/domain/ui/components/ui-title-component";
 import { CategoryLinkComponent } from "../category-link-component";
-import { useCategoryPageContext } from "../../contexts/category-page-context";
 
 export function AllCategoriesComponent() {
   const categories = useLayoutContext().state.categories;

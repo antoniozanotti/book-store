@@ -13,7 +13,7 @@ export function CategoryPageProvider({
   category: CategoryWithPageAndProductsPrisma;
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ category: category });
+  const [state] = useState({ category: category });
 
   return (
     <CategoryPageContext.Provider value={{ state }}>

@@ -12,8 +12,7 @@ import {
 import { useState } from "react";
 
 export function WarningModalComponent() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const { onClose } = useDisclosure();
   const [defaultOpen, setDefaultOpen] = useState(true);
 
   return (

@@ -1,32 +1,11 @@
+import { getCategoryWithPageAndProductsBySlug } from "../services/category-service";
 import { CategoryPageProvider } from "../contexts/category-page-context";
-import prisma from "@/lib/db";
-import { CategoryWithPageAndProductsPrisma } from "../types/category-prisma";
-import { notFound } from "next/navigation";
 import { CategoryPageComponent } from "../components/category-page/category-page-component";
+import { notFound } from "next/navigation";
 
 export async function CategoryPageContainer({ slug }: { slug: string }) {
   try {
-    const category: CategoryWithPageAndProductsPrisma =
-      await prisma.category.findFirstOrThrow({
-        where: {
-          page: {
-            slug: slug,
-          },
-        },
-        include: {
-          page: true,
-          products: {
-            include: {
-              book: {
-                include: {
-                  authors: true,
-                },
-              },
-              page: true,
-            },
-          },
-        },
-      });
+    const category = await getCategoryWithPageAndProductsBySlug(slug);
 
     return (
       <CategoryPageProvider category={JSON.parse(JSON.stringify(category))}>

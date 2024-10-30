@@ -13,7 +13,7 @@ export function FeaturedAuthorsProvider({
   authors: AuthorWithPagePrisma[];
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ authors: authors });
+  const [state] = useState({ authors: authors });
 
   return (
     <FeaturedAuthorsContext.Provider value={{ state }}>

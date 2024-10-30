@@ -1,25 +1,9 @@
-import { NewReleaseBooksComponent } from "../components/new-release-books-component";
+import { getProductsWithPageAndBook } from "../services/product-service";
 import { NewReleaseBooksProvider } from "../contexts/new-release-books-context";
-import prisma from "@/lib/db";
-import { ProductWithPageAndBookPrisma } from "../types/product-prisma";
+import { NewReleaseBooksComponent } from "../components/new-release-books-component";
 
 export async function NewReleaseBooksContainer() {
-  const books: ProductWithPageAndBookPrisma[] = await prisma.product.findMany({
-    include: {
-      book: {
-        include: {
-          authors: true,
-        },
-      },
-      page: true,
-    },
-    take: 6,
-    orderBy: {
-      book: {
-        year: "desc",
-      },
-    },
-  });
+  const books = await getProductsWithPageAndBook();
 
   return (
     <NewReleaseBooksProvider books={JSON.parse(JSON.stringify(books))}>

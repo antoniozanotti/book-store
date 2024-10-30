@@ -24,7 +24,7 @@ export function FilterByYearComponent() {
   }
 
   return (
-    <div className="flex flex-col gap-2 w-full h-full max-w-md items-start justify-center overflow-hidden pt-10">
+    <div className="flex flex-col gap-2 w-full h-full items-start justify-center overflow-hidden pt-10">
       <Slider
         label="Publication year"
         size="sm"
@@ -36,7 +36,6 @@ export function FilterByYearComponent() {
         onChange={(value) =>
           handleChangeYearRange(Array.isArray(value) ? value : [value])
         }
-        className="max-w-md"
       />
     </div>
   );

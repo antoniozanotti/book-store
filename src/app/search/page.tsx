@@ -1,6 +1,6 @@
-import { SearchPageComponent } from "@/domain/search/components/search-page/search-page-component";
 import { SearchParamsType } from "@/types/search-params-type";
 import { Metadata } from "next";
+import { SearchPageComponent } from "@/domain/search/components/search-page/search-page-component";
 
 export async function generateMetadata({
   searchParams,

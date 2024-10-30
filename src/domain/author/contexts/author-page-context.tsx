@@ -13,7 +13,7 @@ export function AuthorPageProvider({
   author: AuthorWithProductsPrisma;
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ author: author });
+  const [state] = useState({ author: author });
 
   return (
     <AuthorPageContext.Provider value={{ state }}>

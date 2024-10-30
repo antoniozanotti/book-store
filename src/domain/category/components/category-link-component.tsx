@@ -1,13 +1,6 @@
-import { ReactNode } from "react";
-import { CategoryWithPagePrisma } from "../types/category-prisma";
-import Link from "next/link";
+import { CategoryLinkComponentInterface } from "./category-link-component-interface";
 import { getCategoryUrl } from "../helpers/get-category-url";
-
-export interface CategoryLinkComponentInterface
-  extends React.ComponentProps<"a"> {
-  category: CategoryWithPagePrisma;
-  children: ReactNode;
-}
+import Link from "next/link";
 
 export function CategoryLinkComponent({
   category,

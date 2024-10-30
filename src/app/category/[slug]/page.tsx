@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { PageType } from "@/types/page-type";
 import { handlePageBySlugAndType } from "@/helpers/handle-page-by-slug-and-type";
+import { PageType } from "@/types/page-type";
 import { CategoryPageContainer } from "@/domain/category/containers/category-page-container";
 
 export async function generateMetadata({

@@ -1,12 +1,8 @@
+import { FooterItemComponentInterface } from "./footer-item-component-interface";
 import { getSlug } from "@/helpers/get-slug";
 import Link from "next/link";
-import { ReactNode } from "react";
 
-export interface FooterItemProps extends React.ComponentProps<"li"> {
-  title: string;
-}
-
-export function FooterItemComponent({ title, ...props }: FooterItemProps) {
+export function FooterItemComponent({ title, ...props }: FooterItemComponentInterface) {
   return (
     <li {...props}>
       <Link

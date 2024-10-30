@@ -1,0 +1,1 @@
+export interface MenuCtaComponentInterface extends React.ComponentProps<"button"> {}

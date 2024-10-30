@@ -1,29 +1,9 @@
+import { ProductsFromCategoryComponentInterface } from "./products-from-category-component-interface";
 import { UiTitleComponent } from "@/domain/ui/components/ui-title-component";
-import {
-  CategoryWithPageAndProductsPrisma,
-  CategoryWithPagePrisma,
-} from "@/domain/category/types/category-prisma";
 import { ProductListingComponent } from "../product-listing-component";
-import { CategoryLinkComponent } from "@/domain/category/components/category-link-component";
+import { CategoryWithPagePrisma } from "@/domain/category/types/category-prisma";
 import { ProductListItemComponent } from "../product-list-item-component";
-
-interface ProductsFromCategoryComponentInterface
-  extends React.ComponentProps<"div"> {
-  category: CategoryWithPageAndProductsPrisma;
-}
-
-function FinalCard({ category }: { category: CategoryWithPagePrisma }) {
-  return (
-    <ProductListItemComponent>
-      <CategoryLinkComponent
-        category={category}
-        className="flex items-center h-full"
-      >
-        <span>See all books from {category.name}.</span>
-      </CategoryLinkComponent>
-    </ProductListItemComponent>
-  );
-}
+import { CategoryLinkComponent } from "@/domain/category/components/category-link-component";
 
 export function ProductsFromCategoryComponent({
   category,
@@ -43,5 +23,18 @@ export function ProductsFromCategoryComponent({
         </div>
       </div>
     )
+  );
+}
+
+function FinalCard({ category }: { category: CategoryWithPagePrisma }) {
+  return (
+    <ProductListItemComponent>
+      <CategoryLinkComponent
+        category={category}
+        className="flex items-center h-full"
+      >
+        <span>See all books from {category.name}.</span>
+      </CategoryLinkComponent>
+    </ProductListItemComponent>
   );
 }

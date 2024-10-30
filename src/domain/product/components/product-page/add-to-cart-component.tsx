@@ -13,6 +13,7 @@ export function AddToCartComponent({ ...props }: React.ComponentProps<"div">) {
     useProductPageContext().state.product;
   const cartDispatch = useCartContext().dispatch;
   const router = useRouter();
+  
   return (
     <div {...props}>
       <div className="flex flex-col text-center border p-4" data-testid="add-to-cart-component">

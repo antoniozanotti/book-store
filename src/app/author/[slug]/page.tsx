@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { PageType } from "@/types/page-type";
 import { handlePageBySlugAndType } from "@/helpers/handle-page-by-slug-and-type";
+import { PageType } from "@/types/page-type";
 import { AuthorPageContainer } from "@/domain/author/containers/author-page-container";
 
 export async function generateMetadata({
@@ -11,10 +11,6 @@ export async function generateMetadata({
   return await handlePageBySlugAndType(params.slug, PageType.AUTHOR);
 }
 
-export default async function Author({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function Author({ params }: { params: { slug: string } }) {
   return <AuthorPageContainer slug={params.slug} />;
 }

@@ -13,7 +13,7 @@ export function CmsPageProvider({
   cmsPage: CmsPageWithPagePrisma;
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ cmsPage: cmsPage });
+  const [state] = useState({ cmsPage: cmsPage });
 
   return (
     <CmsPageContext.Provider value={{ state }}>

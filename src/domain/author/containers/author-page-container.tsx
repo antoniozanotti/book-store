@@ -1,36 +1,11 @@
+import { getAuthorBySlug } from "../services/author-service";
 import { AuthorPageProvider } from "../contexts/author-page-context";
-import prisma from "@/lib/db";
-import { AuthorWithProductsPrisma } from "../types/author-prisma";
-import { notFound } from "next/navigation";
 import { AuthorPageComponent } from "../components/author-page/author-page-component";
+import { notFound } from "next/navigation";
 
 export async function AuthorPageContainer({ slug }: { slug: string }) {
   try {
-    const author: AuthorWithProductsPrisma =
-      await prisma.author.findFirstOrThrow({
-        where: {
-          page: {
-            slug: slug,
-          },
-        },
-        include: {
-          books: {
-            include: {  
-              authors: true,
-              product: {
-                include: {
-                  book: {
-                    include: {
-                      authors: true,
-                    },
-                  },
-                  page: true
-                }
-              }
-            },
-          },
-        },
-      });
+    const author = await getAuthorBySlug(slug);
 
     return (
       <AuthorPageProvider author={JSON.parse(JSON.stringify(author))}>

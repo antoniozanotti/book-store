@@ -13,7 +13,7 @@ export function NewReleaseBooksProvider({
   books: ProductWithPageAndBookPrisma[];
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ books: books });
+  const [state] = useState({ books: books });
 
   return (
     <NewReleaseBooksContext.Provider value={{ state }}>

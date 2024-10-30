@@ -1,14 +1,8 @@
 "use client";
 
 import { ChevronDownIcon, ChevronLeft } from "lucide-react";
-import { useState, ReactNode, useRef } from "react";
-
-export interface UiCollapsibleComponentInterface
-  extends React.ComponentProps<"div"> {
-  shouldCloseWhenOutside: boolean;
-  theHeader: ReactNode;
-  theContent: ReactNode;
-}
+import { useState, useRef } from "react";
+import { UiCollapsibleComponentInterface } from "./ui-collapsible-component-interface";
 
 export function UiCollapsibleComponent({
   shouldCloseWhenOutside,
@@ -39,7 +33,7 @@ export function UiCollapsibleComponent({
     });
   }
 
-  const contentClasses = isOpen ? "lg:absolute lg:z-[100]" : "hidden";
+  const contentStyles = isOpen ? "lg:absolute lg:z-[100]" : "hidden";
 
   return (
     <div {...props} onBlur={onBlurHandler} onFocus={onFocusHandler}>
@@ -57,7 +51,7 @@ export function UiCollapsibleComponent({
           <ChevronLeft className="size-4" />
         )}
       </button>
-      <div className={contentClasses}>{theContent}</div>
+      <div className={contentStyles}>{theContent}</div>
     </div>
   );
 }

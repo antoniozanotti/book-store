@@ -13,7 +13,7 @@ export function LayoutProvider({
   categories: CategoryWithPagePrisma[]
   children: ReactNode;
 }) {
-  const [state, setState] = useState({ categories: categories });
+  const [state] = useState({ categories: categories });
 
   return (
     <LayoutContext.Provider value={{ state }}>

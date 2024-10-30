@@ -1,24 +1,9 @@
+import { ProductsByAuthorComponentInterface } from "./products-by-author-component-interface";
 import { UiTitleComponent } from "@/domain/ui/components/ui-title-component";
-import { AuthorWithPageAndBooks } from "../../types/product-prisma";
 import { ProductListingComponent } from "../product-listing-component";
-import { AuthorLinkComponent } from "@/domain/author/components/author-link-component";
 import { AuthorWithPagePrisma } from "@/domain/author/types/author-prisma";
 import { ProductListItemComponent } from "../product-list-item-component";
-
-interface ProductsByAuthorComponentInterface
-  extends React.ComponentProps<"div"> {
-  author: AuthorWithPageAndBooks;
-}
-
-function FinalCardComponent({ author }: { author: AuthorWithPagePrisma }) {
-  return (
-    <ProductListItemComponent>
-      <AuthorLinkComponent author={author} className="flex items-center h-full">
-        <span>See all books by {author.name}.</span>
-      </AuthorLinkComponent>
-    </ProductListItemComponent>
-  );
-}
+import { AuthorLinkComponent } from "@/domain/author/components/author-link-component";
 
 export function ProductsByAuthorComponent({
   author,
@@ -38,5 +23,15 @@ export function ProductsByAuthorComponent({
         </div>
       </div>
     )
+  );
+}
+
+function FinalCardComponent({ author }: { author: AuthorWithPagePrisma }) {
+  return (
+    <ProductListItemComponent>
+      <AuthorLinkComponent author={author} className="flex items-center h-full">
+        <span>See all books by {author.name}.</span>
+      </AuthorLinkComponent>
+    </ProductListItemComponent>
   );
 }

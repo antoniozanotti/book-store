@@ -1,15 +1,10 @@
-import { FeaturedAuthorsComponent } from "../components/featured-authors-component";
+import { getAuthorsWithPage } from "../services/author-service";
 import { FeaturedAuthorsProvider } from "../contexts/featured-authors-context";
-import prisma from "@/lib/db";
-import { AuthorWithPagePrisma } from "../types/author-prisma";
+import { FeaturedAuthorsComponent } from "../components/featured-authors-component";
 
 export async function FeaturedAuthorsContainer() {
-  const authors: AuthorWithPagePrisma[] = await prisma.author.findMany({
-    include: {
-      page: true,
-    },
-    take: 6,
-  });
+  const limit = 6;
+  const authors = await getAuthorsWithPage(limit);
 
   return (
     <FeaturedAuthorsProvider authors={JSON.parse(JSON.stringify(authors))}>
