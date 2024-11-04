@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCategoryUrl should return category url 1`] = `"/category/arts-and-entertainment"`;

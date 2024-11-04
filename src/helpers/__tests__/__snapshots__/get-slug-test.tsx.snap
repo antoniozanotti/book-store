@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getSlug should return slug 1`] = `"antnio-ricardo-marconzanotti123"`;

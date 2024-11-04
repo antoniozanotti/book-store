@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UiFigureComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <figure
+      class="bg-green-300"
+    >
+      <img
+        alt="The Four Agreements: A Practical Guide to Personal Freedom"
+        class="transition-all undefined"
+        data-nimg="1"
+        decoding="async"
+        height="193"
+        loading="lazy"
+        sizes="145px"
+        src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5111,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0"
+        srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_21,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_42,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_63,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_85,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_127,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_170,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_340,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_511,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_851,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_998,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1102,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1437,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1597,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2555,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2725,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5111,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 3840w"
+        style="color: transparent;"
+        width="145"
+      />
+    </figure>
+  </div>
+</div>
+`;
+
+exports[`UiFigureComponent should render with optional args 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <figure
+      class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+    >
+      <img
+        alt="The Four Agreements: A Practical Guide to Personal Freedom"
+        class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+        data-nimg="1"
+        decoding="async"
+        height="269"
+        loading="lazy"
+        sizes="640px"
+        src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0"
+        srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 3840w"
+        style="color: transparent;"
+        width="187"
+      />
+    </figure>
+  </div>
+</div>
+`;

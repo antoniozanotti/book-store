@@ -1,0 +1,1572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPageComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="flex flex-col lg:flex-row"
+    >
+      <aside
+        class="basis-1/4 relative"
+      >
+        <div
+          class="px-4 lg:hidden bg-primary-100"
+        >
+          <h2
+            class="font-primary text-pretty text-2xl hidden lg:block p-10 pb-0"
+          >
+            Filter
+          </h2>
+          <h2
+            class="font-primary text-pretty text-2xl hidden lg:block p-10 pb-0"
+          >
+            Order by
+          </h2>
+          <div
+            class="w-full px-0"
+            data-orientation="vertical"
+          >
+            <div
+              aria-label="Search Options"
+              class="group-[.is-splitted]:px-4 group-[.is-splitted]:bg-content1 group-[.is-splitted]:shadow-medium group-[.is-splitted]:rounded-medium"
+            >
+              <h2>
+                <button
+                  aria-expanded="false"
+                  class="flex py-4 w-full h-full gap-3 items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 transition-opacity"
+                  id=":r0:"
+                  type="button"
+                >
+                  <div
+                    class="flex-1 flex flex-col text-start"
+                  >
+                    <span
+                      class="text-foreground text-large"
+                    >
+                      <h2
+                        class="font-primary text-pretty text-2xl"
+                      >
+                        Search Options
+                      </h2>
+                    </span>
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="text-default-400 transition-transform rotate-0 data-[open=true]:-rotate-90 rtl:-rotate-180 rtl:data-[open=true]:-rotate-90"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      fill="none"
+                      focusable="false"
+                      height="1em"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                    >
+                      <path
+                        d="M15.5 19l-7-7 7-7"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-6 lg:p-10 hidden lg:block"
+        >
+          <div>
+            <h2
+              class="font-primary text-pretty text-2xl"
+            >
+              Filter by Category
+            </h2>
+            <div
+              aria-label=" "
+              class="relative flex flex-col gap-2 overflow-hidden"
+              id="react-aria-:r2:"
+              role="group"
+            >
+              <div
+                class="flex flex-col flex-wrap data-[orientation=horizontal]:flex-row gap-0"
+                data-orientation="vertical"
+                role="presentation"
+              >
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Arts and Entertainment"
+                      aria-labelledby=":r7:"
+                      title=""
+                      type="checkbox"
+                      value="arts-and-entertainment"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":r7:"
+                  >
+                    Arts and Entertainment
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Business and Technology"
+                      aria-labelledby=":r8:"
+                      title=""
+                      type="checkbox"
+                      value="business-and-technology"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":r8:"
+                  >
+                    Business and Technology
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Graphic Novels"
+                      aria-labelledby=":r9:"
+                      title=""
+                      type="checkbox"
+                      value="graphic-novels"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":r9:"
+                  >
+                    Graphic Novels
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="History, Biography, and Social Science"
+                      aria-labelledby=":ra:"
+                      title=""
+                      type="checkbox"
+                      value="history-biography-and-social-science"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":ra:"
+                  >
+                    History, Biography, and Social Science
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Home and Lifestyle"
+                      aria-labelledby=":rb:"
+                      title=""
+                      type="checkbox"
+                      value="home-and-lifestyle"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rb:"
+                  >
+                    Home and Lifestyle
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Horror"
+                      aria-labelledby=":rc:"
+                      title=""
+                      type="checkbox"
+                      value="horror"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rc:"
+                  >
+                    Horror
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Languages and Travel"
+                      aria-labelledby=":rd:"
+                      title=""
+                      type="checkbox"
+                      value="languages-and-travel"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rd:"
+                  >
+                    Languages and Travel
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="LGBTQIA+"
+                      aria-labelledby=":re:"
+                      title=""
+                      type="checkbox"
+                      value="lgbtqia"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":re:"
+                  >
+                    LGBTQIA+
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Literature and Poetry"
+                      aria-labelledby=":rf:"
+                      title=""
+                      type="checkbox"
+                      value="literature-and-poetry"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rf:"
+                  >
+                    Literature and Poetry
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Mystery"
+                      aria-labelledby=":rg:"
+                      title=""
+                      type="checkbox"
+                      value="mystery"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rg:"
+                  >
+                    Mystery
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Romance"
+                      aria-labelledby=":rh:"
+                      title=""
+                      type="checkbox"
+                      value="romance"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rh:"
+                  >
+                    Romance
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Science and Math"
+                      aria-labelledby=":ri:"
+                      title=""
+                      type="checkbox"
+                      value="science-and-math"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":ri:"
+                  >
+                    Science and Math
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Science Fiction and Fantasy"
+                      aria-labelledby=":rj:"
+                      title=""
+                      type="checkbox"
+                      value="science-fiction-and-fantasy"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rj:"
+                  >
+                    Science Fiction and Fantasy
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Spirituality and Philosophy"
+                      aria-labelledby=":rk:"
+                      title=""
+                      type="checkbox"
+                      value="spirituality-and-philosophy"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rk:"
+                  >
+                    Spirituality and Philosophy
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Wellness, Sports, and Outdoors"
+                      aria-labelledby=":rl:"
+                      title=""
+                      type="checkbox"
+                      value="wellness-sports-and-outdoors"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rl:"
+                  >
+                    Wellness, Sports, and Outdoors
+                  </span>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-label="Young Adult"
+                      aria-labelledby=":rm:"
+                      title=""
+                      type="checkbox"
+                      value="young-adult"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                      role="presentation"
+                      viewBox="0 0 17 18"
+                    >
+                      <polyline
+                        fill="none"
+                        points="1 9 7 14 15 4"
+                        stroke="currentColor"
+                        stroke-dasharray="22"
+                        stroke-dashoffset="66"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                    id=":rm:"
+                  >
+                    Young Adult
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-10"
+          >
+            <h2
+              class="font-primary text-pretty text-2xl"
+            >
+              Additional Filters
+            </h2>
+            <div
+              class="flex flex-col gap-2 w-full h-full items-start justify-center overflow-hidden"
+            >
+              <div
+                aria-labelledby="react-aria-:ro:"
+                class="flex flex-col w-full gap-1"
+                data-hover="false"
+                data-orientation="horizontal"
+                data-slot="base"
+                id="react-aria-:rn:"
+                role="group"
+              >
+                <div
+                  class="w-full flex justify-between items-center"
+                  data-slot="labelWrapper"
+                >
+                  <label
+                    class="text-small"
+                    data-slot="label"
+                    id="react-aria-:ro:"
+                  >
+                    Price
+                  </label>
+                  <output
+                    aria-live="off"
+                    class="text-small"
+                    data-slot="value"
+                    for="react-aria-:ro:-0 react-aria-:ro:-1"
+                  >
+                    $20.00 – $490.00
+                  </output>
+                </div>
+                <div
+                  class="relative flex gap-2 items-center"
+                  data-slot="track-wrapper"
+                >
+                  <div
+                    class="flex w-full relative rounded-full bg-default-300/50 border-x-transparent h-1 my-[calc((theme(spacing.5)-theme(spacing.1))/2)] data-[thumb-hidden=false]:border-x-[calc(theme(spacing.5)/2)]"
+                    data-slot="track"
+                    data-thumb-hidden="false"
+                    data-vertical="false"
+                    style="position: relative;"
+                  >
+                    <div
+                      class="h-full absolute bg-primary"
+                      data-slot="filler"
+                      style="left: 0%; width: 98.12108559498957%;"
+                    />
+                    <div
+                      class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                      data-slot="thumb"
+                      index="0"
+                      orientation="horizontal"
+                      style="position: absolute; left: 0%; transform: translate(-50%, -50%);"
+                    >
+                      <div
+                        style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                      >
+                        <input
+                          aria-describedby=""
+                          aria-details=""
+                          aria-labelledby="react-aria-:ro:"
+                          aria-orientation="horizontal"
+                          aria-valuetext="$20.00"
+                          id="react-aria-:ro:-0"
+                          max="490"
+                          min="20"
+                          step="10"
+                          tabindex="0"
+                          type="range"
+                          value="20"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                      data-slot="thumb"
+                      index="1"
+                      orientation="horizontal"
+                      style="position: absolute; left: 98.12108559498957%; transform: translate(-50%, -50%);"
+                    >
+                      <div
+                        style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                      >
+                        <input
+                          aria-describedby=""
+                          aria-details=""
+                          aria-labelledby="react-aria-:ro:"
+                          aria-orientation="horizontal"
+                          aria-valuetext="$490.00"
+                          id="react-aria-:ro:-1"
+                          max="499"
+                          min="20"
+                          step="10"
+                          tabindex="0"
+                          type="range"
+                          value="490"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-2 w-full h-full items-start justify-center overflow-hidden pt-10"
+            >
+              <div
+                aria-labelledby="react-aria-:r11:"
+                class="flex flex-col w-full gap-1"
+                data-hover="false"
+                data-orientation="horizontal"
+                data-slot="base"
+                id="react-aria-:r10:"
+                role="group"
+              >
+                <div
+                  class="w-full flex justify-between items-center"
+                  data-slot="labelWrapper"
+                >
+                  <label
+                    class="text-small"
+                    data-slot="label"
+                    id="react-aria-:r11:"
+                  >
+                    Publication year
+                  </label>
+                  <output
+                    aria-live="off"
+                    class="text-small"
+                    data-slot="value"
+                    for="react-aria-:r11:-0 react-aria-:r11:-1"
+                  >
+                    1990–2024
+                  </output>
+                </div>
+                <div
+                  class="relative flex gap-2 items-center"
+                  data-slot="track-wrapper"
+                >
+                  <div
+                    class="flex w-full relative rounded-full bg-default-300/50 border-x-transparent h-1 my-[calc((theme(spacing.5)-theme(spacing.1))/2)] data-[thumb-hidden=false]:border-x-[calc(theme(spacing.5)/2)]"
+                    data-slot="track"
+                    data-thumb-hidden="false"
+                    data-vertical="false"
+                    style="position: relative;"
+                  >
+                    <div
+                      class="h-full absolute bg-primary"
+                      data-slot="filler"
+                      style="left: 0%; width: 100%;"
+                    />
+                    <div
+                      class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                      data-slot="thumb"
+                      index="0"
+                      orientation="horizontal"
+                      style="position: absolute; left: 0%; transform: translate(-50%, -50%);"
+                    >
+                      <div
+                        style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                      >
+                        <input
+                          aria-describedby=""
+                          aria-details=""
+                          aria-labelledby="react-aria-:r11:"
+                          aria-orientation="horizontal"
+                          aria-valuetext="1990"
+                          id="react-aria-:r11:-0"
+                          max="2024"
+                          min="1990"
+                          step="1"
+                          tabindex="0"
+                          type="range"
+                          value="1990"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                      data-slot="thumb"
+                      index="1"
+                      orientation="horizontal"
+                      style="position: absolute; left: 100%; transform: translate(-50%, -50%);"
+                    >
+                      <div
+                        style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                      >
+                        <input
+                          aria-describedby=""
+                          aria-details=""
+                          aria-labelledby="react-aria-:r11:"
+                          aria-orientation="horizontal"
+                          aria-valuetext="2024"
+                          id="react-aria-:r11:-1"
+                          max="2024"
+                          min="1990"
+                          step="1"
+                          tabindex="0"
+                          type="range"
+                          value="2024"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-10"
+          >
+            <h2
+              class="font-primary text-pretty text-2xl"
+            >
+              Order by
+            </h2>
+            <div
+              aria-label=" "
+              aria-orientation="vertical"
+              class="relative flex flex-col gap-2"
+              id="react-aria-:r19:"
+              role="radiogroup"
+            >
+              <div
+                class="flex flex-col flex-wrap data-[orientation=horizontal]:flex-row gap-0"
+                data-orientation="vertical"
+                role="presentation"
+              >
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                  data-selected="true"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby="react-aria-:r1c:"
+                      aria-label="Title"
+                      aria-labelledby=":r1f:"
+                      checked=""
+                      name="react-aria-:r1e:"
+                      tabindex="0"
+                      title=""
+                      type="radio"
+                      value="name"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+                  >
+                    <span
+                      class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+                    />
+                  </span>
+                  <div
+                    class="flex flex-col ml-1"
+                  >
+                    <span
+                      class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+                      id=":r1f:"
+                    >
+                      Title
+                    </span>
+                  </div>
+                </label>
+                <hr
+                  class="shrink-0 bg-divider border-none w-full h-divider"
+                  role="separator"
+                />
+                <label
+                  class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby="react-aria-:r1c:"
+                      aria-label="Price"
+                      aria-labelledby=":r1g:"
+                      name="react-aria-:r1e:"
+                      tabindex="-1"
+                      title=""
+                      type="radio"
+                      value="price"
+                    />
+                  </div>
+                  <span
+                    aria-hidden="true"
+                    class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+                  >
+                    <span
+                      class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+                    />
+                  </span>
+                  <div
+                    class="flex flex-col ml-1"
+                  >
+                    <span
+                      class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+                      id=":r1g:"
+                    >
+                      Price
+                    </span>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main
+        class="basis-3/4 grow"
+      >
+        <div
+          class="p-10 pb-0"
+        >
+          <h1
+            class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+          >
+            Search Results 
+          </h1>
+        </div>
+        <div
+          class="p-10 pt-0"
+        >
+          <div
+            class="pb-4"
+          >
+            <span>
+              160 products found.
+            </span>
+            <button
+              class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-3 min-w-16 h-8 text-tiny gap-2 rounded-small [&>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-default text-default-foreground data-[hover=true]:opacity-hover ml-2"
+              type="button"
+            >
+              Clear Filters
+            </button>
+          </div>
+          <div
+            class="flex flex-wrap justify-center gap-4"
+          >
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/1984"
+                title="1984 by George Orwell"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="1984"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/1984?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/1984"
+                  title="1984 by George Orwell"
+                >
+                  1984
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                George Orwell
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/a-brief-history-of-time"
+                title="A Brief History of Time by Stephen Hawking"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="A Brief History of Time"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-brief-history-of-time?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/a-brief-history-of-time"
+                  title="A Brief History of Time by Stephen Hawking"
+                >
+                  A Brief History of Time
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Stephen Hawking
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/a-game-of-thrones"
+                title="A Game of Thrones by George R.R. Martin"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="A Game of Thrones"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-game-of-thrones?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/a-game-of-thrones"
+                  title="A Game of Thrones by George R.R. Martin"
+                >
+                  A Game of Thrones
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                George R.R. Martin
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/alexander-hamilton"
+                title="Alexander Hamilton by Ron Chernow"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="Alexander Hamilton"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/alexander-hamilton?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/alexander-hamilton"
+                  title="Alexander Hamilton by Ron Chernow"
+                >
+                  Alexander Hamilton
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Ron Chernow
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/and-then-there-were-none"
+                title="And Then There Were None by Agatha Christie"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="And Then There Were None"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/and-then-there-were-none?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/and-then-there-were-none"
+                  title="And Then There Were None by Agatha Christie"
+                >
+                  And Then There Were None
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Agatha Christie
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/an-ember-in-the-ashes"
+                title="An Ember in the Ashes by Sabaa Tahir"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="An Ember in the Ashes"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/an-ember-in-the-ashes?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/an-ember-in-the-ashes"
+                  title="An Ember in the Ashes by Sabaa Tahir"
+                >
+                  An Ember in the Ashes
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Sabaa Tahir
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/a-peoples-history-of-the-united-states"
+                title="A People's History of the United States by Howard Zinn"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="A People's History of the United States"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/a-peoples-history-of-the-united-states?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/a-peoples-history-of-the-united-states"
+                  title="A People's History of the United States by Howard Zinn"
+                >
+                  A People's History of the United States
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Howard Zinn
+              </address>
+            </article>
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones"
+                title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones"
+                  title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear"
+                >
+                  Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                James Clear
+              </address>
+            </article>
+          </div>
+          <div
+            class="pt-10 flex justify-center"
+          >
+            <button
+              class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover w-full lg:w-fit"
+              type="button"
+            >
+              Load More Results
+              <svg
+                class="lucide lucide-chevron-down "
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;

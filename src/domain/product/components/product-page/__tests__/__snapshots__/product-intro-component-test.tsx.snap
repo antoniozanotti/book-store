@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductIntroComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div>
+      <h1
+        class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+      >
+        The Four Agreements: A Practical Guide to Personal Freedom
+      </h1>
+      <address>
+        by 
+        <a
+          class="underline"
+          href="/author/don-miguel-ruiz"
+          rel="author"
+          title="Don Miguel Ruiz"
+        >
+          Don Miguel Ruiz
+        </a>
+      </address>
+      <figure
+        class="bg-green-300 w-full sm:w-[374px] h-[497px] relative overflow-hidden mt-4"
+      >
+        <img
+          alt="The Four Agreements: A Practical Guide to Personal Freedom"
+          class="transition-all object-cover w-full h-full"
+          data-nimg="1"
+          decoding="async"
+          height="497"
+          loading="lazy"
+          sizes="374px"
+          src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5102,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0"
+          srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_21,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_42,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_63,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_85,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_127,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_170,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_340,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_510,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_850,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_996,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1100,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1435,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1594,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2551,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2721,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5102,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 3840w"
+          style="color: transparent;"
+          width="374"
+        />
+      </figure>
+      <h2
+        class="font-primary text-pretty text-3xl mt-10"
+      >
+        Synopses
+      </h2>
+      <p>
+        Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorLinkComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <a
+      href="/author/kevin-kwan"
+      rel="author"
+      title="Kevin Kwan"
+    >
+      Teste
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorPageComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="flex flex-row"
+    >
+      <aside
+        class="basis-1/4 hidden lg:block"
+      >
+        <nav
+          aria-label="Categories"
+          class="p-10"
+        >
+          <h2
+            class="font-primary text-pretty text-2xl"
+          >
+            Categories
+          </h2>
+          <ul
+            class="text-sm flex flex-col divide-y"
+          >
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/arts-and-entertainment"
+                title="Arts and Entertainment"
+              >
+                Arts and Entertainment
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/business-and-technology"
+                title="Business and Technology"
+              >
+                Business and Technology
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/graphic-novels"
+                title="Graphic Novels"
+              >
+                Graphic Novels
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/history-biography-and-social-science"
+                title="History, Biography, and Social Science"
+              >
+                History, Biography, and Social Science
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/home-and-lifestyle"
+                title="Home and Lifestyle"
+              >
+                Home and Lifestyle
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/horror"
+                title="Horror"
+              >
+                Horror
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/languages-and-travel"
+                title="Languages and Travel"
+              >
+                Languages and Travel
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/lgbtqia"
+                title="LGBTQIA+"
+              >
+                LGBTQIA+
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/literature-and-poetry"
+                title="Literature and Poetry"
+              >
+                Literature and Poetry
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/mystery"
+                title="Mystery"
+              >
+                Mystery
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/romance"
+                title="Romance"
+              >
+                Romance
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/science-and-math"
+                title="Science and Math"
+              >
+                Science and Math
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/science-fiction-and-fantasy"
+                title="Science Fiction and Fantasy"
+              >
+                Science Fiction and Fantasy
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/spirituality-and-philosophy"
+                title="Spirituality and Philosophy"
+              >
+                Spirituality and Philosophy
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/wellness-sports-and-outdoors"
+                title="Wellness, Sports, and Outdoors"
+              >
+                Wellness, Sports, and Outdoors
+              </a>
+            </li>
+            <li
+              class="py-2 "
+            >
+              <a
+                href="/category/young-adult"
+                title="Young Adult"
+              >
+                Young Adult
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main
+        class="basis-3/4 grow"
+      >
+        <div
+          class="p-10"
+        >
+          <h1
+            class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+          >
+            Don Miguel Ruiz
+          </h1>
+          <p
+            class="mt-4"
+          >
+            Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.
+          </p>
+        </div>
+        <div
+          class="p-10"
+        >
+          <div
+            class="flex flex-wrap justify-center gap-4"
+          >
+            <article
+              class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+            >
+              <a
+                href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+                title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+              >
+                <figure
+                  class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+                >
+                  <img
+                    alt="The Four Agreements: A Practical Guide to Personal Freedom"
+                    class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                    data-nimg="1"
+                    decoding="async"
+                    height="269"
+                    loading="lazy"
+                    sizes="640px"
+                    src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0"
+                    srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 3840w"
+                    style="color: transparent;"
+                    width="187"
+                  />
+                </figure>
+              </a>
+              <p
+                class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+              >
+                <a
+                  href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+                  title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+                >
+                  The Four Agreements: A Practical Guide to Personal Freedom
+                </a>
+              </p>
+              <address
+                class="line-clamp-2"
+              >
+                by 
+                Don Miguel Ruiz
+              </address>
+            </article>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;

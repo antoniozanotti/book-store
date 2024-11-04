@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsFromCategoryComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div>
+      <h3
+        class="font-primary text-pretty text-3xl mt-10"
+      >
+        Arts and Entertainment
+         Books You May Also Like
+      </h3>
+      <div
+        class="mt-2"
+      >
+        <div
+          class="flex flex-wrap justify-center gap-4"
+        >
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/crazy-rich-asians"
+              title="Crazy Rich Asians by Kevin Kwan"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="Crazy Rich Asians"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/crazy-rich-asians?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/crazy-rich-asians"
+                title="Crazy Rich Asians by Kevin Kwan"
+              >
+                Crazy Rich Asians
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Kevin Kwan
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/the-artists-way-a-spiritual-path-to-higher-creativity"
+              title="The Artist's Way: A Spiritual Path to Higher Creativity by Julia Cameron"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="The Artist's Way: A Spiritual Path to Higher Creativity"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-artists-way-a-spiritual-path-to-higher-creativity?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/the-artists-way-a-spiritual-path-to-higher-creativity"
+                title="The Artist's Way: A Spiritual Path to Higher Creativity by Julia Cameron"
+              >
+                The Artist's Way: A Spiritual Path to Higher Creativity
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Julia Cameron
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/how-music-works"
+              title="How Music Works by David Byrne"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="How Music Works"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/how-music-works?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/how-music-works"
+                title="How Music Works by David Byrne"
+              >
+                How Music Works
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              David Byrne
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/the-goldfinch"
+              title="The Goldfinch by Donna Tartt"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="The Goldfinch"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-goldfinch?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/the-goldfinch"
+                title="The Goldfinch by Donna Tartt"
+              >
+                The Goldfinch
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Donna Tartt
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/hamilton-the-revolution"
+              title="Hamilton: The Revolution by Jeremy McCarter and Lin-Manuel Miranda"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="Hamilton: The Revolution"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/hamilton-the-revolution?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/hamilton-the-revolution"
+                title="Hamilton: The Revolution by Jeremy McCarter and Lin-Manuel Miranda"
+              >
+                Hamilton: The Revolution
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Jeremy McCarter and Lin-Manuel Miranda
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/just-kids"
+              title="Just Kids by Patti Smith"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="Just Kids"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/just-kids?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/just-kids"
+                title="Just Kids by Patti Smith"
+              >
+                Just Kids
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Patti Smith
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative"
+              title="Steal Like an Artist: 10 Things Nobody Told You About Being Creative by Austin Kleon"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="Steal Like an Artist: 10 Things Nobody Told You About Being Creative"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/steal-like-an-artist-10-things-nobody-told-you-about-being-creative"
+                title="Steal Like an Artist: 10 Things Nobody Told You About Being Creative by Austin Kleon"
+              >
+                Steal Like an Artist: 10 Things Nobody Told You About Being Creative
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Austin Kleon
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/born-to-run"
+              title="Born to Run by Bruce Springsteen"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="Born to Run"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/born-to-run?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/born-to-run"
+                title="Born to Run by Bruce Springsteen"
+              >
+                Born to Run
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Bruce Springsteen
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/the-art-of-pixar-25th-anniversary"
+              title="The Art of Pixar: 25th Anniversary by John Lasseter and Amid Amidi"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="The Art of Pixar: 25th Anniversary"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-art-of-pixar-25th-anniversary?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/the-art-of-pixar-25th-anniversary"
+                title="The Art of Pixar: 25th Anniversary by John Lasseter and Amid Amidi"
+              >
+                The Art of Pixar: 25th Anniversary
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              John Lasseter and Amid Amidi
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/the-warhol-economy"
+              title="The Warhol Economy by Elizabeth Currid-Halkett"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="The Warhol Economy"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-warhol-economy?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/the-warhol-economy"
+                title="The Warhol Economy by Elizabeth Currid-Halkett"
+              >
+                The Warhol Economy
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Elizabeth Currid-Halkett
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              class="flex items-center h-full"
+              href="/category/arts-and-entertainment"
+              title="Arts and Entertainment"
+            >
+              <span>
+                See all books from 
+                Arts and Entertainment
+                .
+              </span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

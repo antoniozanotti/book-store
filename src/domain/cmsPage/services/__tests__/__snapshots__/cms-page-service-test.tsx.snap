@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CmsPageService should return cms page by slug 1`] = `
+{
+  "content": "Color acceptus usitas ultio basium ascisco supplanto tametsi adstringo volup. Comminor perspiciatis universe laboriosam vulnero maiores cibus acsi assentator adicio. Coadunatio pel baiulus titulus sordeo tamquam aperio verbera.
+Pecco demoror timidus sub a dedico urbs articulus aiunt. Cognatus sordeo vergo cupio alias crebro theologus tunc error. Claustrum subseco ventus sordeo aliquam vulgo.
+Velociter territo voluntarius cavus delectatio culpo beneficium universe contigo earum. Patrocinor curvo voluptate dolorem delego vir. Facere vitae vir concido.",
+  "id": 13,
+  "page": {
+    "description": "Voluptate utrum veritatis bibo velociter deporto curia celebrer via sollicito. Tricesimus aspernatur vigor officiis. Usque stillicidium velum.",
+    "id": 13,
+    "slug": "about-us",
+    "title": "About Us",
+    "type": "cmsPage",
+  },
+  "pageId": 13,
+  "title": "About Us",
+}
+`;

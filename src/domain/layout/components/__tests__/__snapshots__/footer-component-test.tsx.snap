@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <footer
+      class="bg-primary-900"
+      data-testid="footer"
+    >
+      <div
+        class="w-full mx-auto xl:max-w-screen-xl 2xl:max-w-screen-2xl grid grid-cols-1 lg:grid-cols-3 -mt-20"
+      >
+        <div
+          class="bg-primary-400 p-10 xl:rounded-bl-lg"
+        >
+          <h1
+            class="font-primary text-pretty text-2xl"
+          >
+            Stay Connected
+          </h1>
+          <p
+            class="py-2"
+          >
+            Tempor nisi duis eiusmod duis exercitation ipsum dolore dolor et deserunt id reprehenderit.
+          </p>
+          <ul
+            class="flex gap-2"
+          >
+            <li>
+              <a
+                href=""
+                target="_blank"
+                title="Emmanuel's Book Store Facebook"
+              >
+                <svg
+                  class="lucide lucide-facebook "
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+                title="Emmanuel's Book Store LinkedIn"
+              >
+                <svg
+                  class="lucide lucide-linkedin "
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect
+                    height="12"
+                    width="4"
+                    x="2"
+                    y="9"
+                  />
+                  <circle
+                    cx="4"
+                    cy="4"
+                    r="2"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+                title="Emmanuel's Book Store X"
+              >
+                <svg
+                  class="lucide lucide-twitter "
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                target="_blank"
+                title="Emmanuel's Book Store Youtube Channel"
+              >
+                <svg
+                  class="lucide lucide-youtube "
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                  />
+                  <path
+                    d="m10 15 5-3-5-3z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-primary-300 col-span-1 lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 lg:pb-10 xl:rounded-br-lg"
+        >
+          <div>
+            <h1
+              class="font-primary text-pretty text-2xl px-10 pt-10 pb-2 lg:pb-0"
+              id="footer-help"
+            >
+              Help
+            </h1>
+            <nav
+              aria-label="Help"
+              aria-labelledby="footer-help"
+              class="lg:py-2"
+            >
+              <ul
+                class="bg-primary-200 lg:bg-transparent divide-y lg:divide-y-0"
+              >
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/contact-us"
+                    title="Contact Us"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/guarantee"
+                    title="Guarantee"
+                  >
+                    Guarantee
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/shipping"
+                    title="Shipping"
+                  >
+                    Shipping
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/privacy"
+                    title="Privacy"
+                  >
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/terms"
+                    title="Terms"
+                  >
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <h1
+              class="font-primary text-pretty text-2xl px-10 pt-10 pb-2 lg:pb-0"
+              id="footer-explore"
+            >
+              Explore
+            </h1>
+            <nav
+              aria-label="Explore"
+              aria-labelledby="footer-explore"
+              class="lg:py-2"
+            >
+              <ul
+                class="bg-primary-200 lg:bg-transparent divide-y lg:divide-y-0"
+              >
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/featured-authors"
+                    title="Featured Authors"
+                  >
+                    Featured Authors
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/new-release-books"
+                    title="New Release Books"
+                  >
+                    New Release Books
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/top-categories"
+                    title="Top Categories"
+                  >
+                    Top Categories
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/latest-blog-articles"
+                    title="Latest Blog Articles"
+                  >
+                    Latest Blog Articles
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/publishers"
+                    title="Publishers"
+                  >
+                    Publishers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="px-10 py-4 lg:py-0 block"
+                    href="/about-us"
+                    title="About Us"
+                  >
+                    About Us
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div
+          class="col-span-1 lg:col-span-3 text-center p-10 text-primary-200"
+        >
+          © 
+          2024
+           emmanuelsbookstore.com
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

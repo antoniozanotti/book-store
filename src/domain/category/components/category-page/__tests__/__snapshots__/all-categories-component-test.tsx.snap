@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllCategoriesComponent should render all categories 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <nav
+      aria-label="Categories"
+      class="p-10"
+    >
+      <h2
+        class="font-primary text-pretty text-2xl"
+      >
+        Categories
+      </h2>
+      <ul
+        class="text-sm flex flex-col divide-y"
+      >
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/arts-and-entertainment"
+            title="Arts and Entertainment"
+          >
+            Arts and Entertainment
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/business-and-technology"
+            title="Business and Technology"
+          >
+            Business and Technology
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/graphic-novels"
+            title="Graphic Novels"
+          >
+            Graphic Novels
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/history-biography-and-social-science"
+            title="History, Biography, and Social Science"
+          >
+            History, Biography, and Social Science
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/home-and-lifestyle"
+            title="Home and Lifestyle"
+          >
+            Home and Lifestyle
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/horror"
+            title="Horror"
+          >
+            Horror
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/languages-and-travel"
+            title="Languages and Travel"
+          >
+            Languages and Travel
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/lgbtqia"
+            title="LGBTQIA+"
+          >
+            LGBTQIA+
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/literature-and-poetry"
+            title="Literature and Poetry"
+          >
+            Literature and Poetry
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/mystery"
+            title="Mystery"
+          >
+            Mystery
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/romance"
+            title="Romance"
+          >
+            Romance
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/science-and-math"
+            title="Science and Math"
+          >
+            Science and Math
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/science-fiction-and-fantasy"
+            title="Science Fiction and Fantasy"
+          >
+            Science Fiction and Fantasy
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/spirituality-and-philosophy"
+            title="Spirituality and Philosophy"
+          >
+            Spirituality and Philosophy
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/wellness-sports-and-outdoors"
+            title="Wellness, Sports, and Outdoors"
+          >
+            Wellness, Sports, and Outdoors
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/young-adult"
+            title="Young Adult"
+          >
+            Young Adult
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`AllCategoriesComponent should render all categories and bold current category 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <nav
+      aria-label="Categories"
+      class="p-10"
+    >
+      <h2
+        class="font-primary text-pretty text-2xl"
+      >
+        Categories
+      </h2>
+      <ul
+        class="text-sm flex flex-col divide-y"
+      >
+        <li
+          class="py-2 font-bold"
+        >
+          <a
+            href="/category/arts-and-entertainment"
+            title="Arts and Entertainment"
+          >
+            Arts and Entertainment
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/business-and-technology"
+            title="Business and Technology"
+          >
+            Business and Technology
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/graphic-novels"
+            title="Graphic Novels"
+          >
+            Graphic Novels
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/history-biography-and-social-science"
+            title="History, Biography, and Social Science"
+          >
+            History, Biography, and Social Science
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/home-and-lifestyle"
+            title="Home and Lifestyle"
+          >
+            Home and Lifestyle
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/horror"
+            title="Horror"
+          >
+            Horror
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/languages-and-travel"
+            title="Languages and Travel"
+          >
+            Languages and Travel
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/lgbtqia"
+            title="LGBTQIA+"
+          >
+            LGBTQIA+
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/literature-and-poetry"
+            title="Literature and Poetry"
+          >
+            Literature and Poetry
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/mystery"
+            title="Mystery"
+          >
+            Mystery
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/romance"
+            title="Romance"
+          >
+            Romance
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/science-and-math"
+            title="Science and Math"
+          >
+            Science and Math
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/science-fiction-and-fantasy"
+            title="Science Fiction and Fantasy"
+          >
+            Science Fiction and Fantasy
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/spirituality-and-philosophy"
+            title="Spirituality and Philosophy"
+          >
+            Spirituality and Philosophy
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/wellness-sports-and-outdoors"
+            title="Wellness, Sports, and Outdoors"
+          >
+            Wellness, Sports, and Outdoors
+          </a>
+        </li>
+        <li
+          class="py-2 "
+        >
+          <a
+            href="/category/young-adult"
+            title="Young Adult"
+          >
+            Young Adult
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

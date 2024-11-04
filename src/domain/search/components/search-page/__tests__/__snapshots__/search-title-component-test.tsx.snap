@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchTitleComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="p-10 pb-0"
+    >
+      <h1
+        class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+      >
+        Search Results 
+      </h1>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchService should return cursor 1`] = `0`;
+
+exports[`SearchService should return products by request url 1`] = `
+[
+  [
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Vigilo via volaticus cenaculum. Carpo calcar ipsa tredecim degenero conscendo adnuo impedit aliqua. Cavus vespillo taceo admoveo aptus veritas brevis auctus.",
+            "id": 97,
+            "name": "George Orwell",
+            "pageId": 298,
+          },
+        ],
+        "id": 89,
+        "pages": 429,
+        "productId": 89,
+        "publisherId": 89,
+        "year": 2014,
+      },
+      "description": "Vito trado defessus supellex sol trepide sui. Adnuo auxilium numquam vigor cupiditate summisse aetas summopere corrumpo. Cupiditas spargo accedo tristis spiritus suffragium amoveo strues cognatus.",
+      "id": 89,
+      "isbn": "978-0-907905-64-6",
+      "name": "1984",
+      "page": {
+        "description": "Vito trado defessus supellex sol trepide sui. Adnuo auxilium numquam vigor cupiditate summisse aetas summopere corrumpo. Cupiditas spargo accedo tristis spir...",
+        "id": 296,
+        "slug": "1984",
+        "title": "Book 1984",
+        "type": "product",
+      },
+      "pageId": 296,
+      "price": "98",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Comptus adversus cras vomica tumultus solio damnatio acies. Ago appello commodi surculus arcesso tener considero. Quis cariosus adulatio.",
+            "id": 128,
+            "name": "Stephen Hawking",
+            "pageId": 394,
+          },
+        ],
+        "id": 120,
+        "pages": 479,
+        "productId": 120,
+        "publisherId": 120,
+        "year": 1998,
+      },
+      "description": "Cerno suspendo solutio. Venio volutabrum custodia libero non creptio turba tondeo absum adimpleo. Conitor corpus cura calamitas sono id tui cibus.",
+      "id": 120,
+      "isbn": "978-0-919567-60-3",
+      "name": "A Brief History of Time",
+      "page": {
+        "description": "Cerno suspendo solutio. Venio volutabrum custodia libero non creptio turba tondeo absum adimpleo. Conitor corpus cura calamitas sono id tui cibus.",
+        "id": 392,
+        "slug": "a-brief-history-of-time",
+        "title": "Book A Brief History of Time",
+        "type": "product",
+      },
+      "pageId": 392,
+      "price": "218",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Inflammatio vero demens debeo officia. Pax cedo arca tamdiu ab provident ex defaeco. Adsuesco peccatus votum ambulo defungo adflicto auctor tero architecto necessitatibus.",
+            "id": 135,
+            "name": "George R.R. Martin",
+            "pageId": 416,
+          },
+        ],
+        "id": 127,
+        "pages": 495,
+        "productId": 127,
+        "publisherId": 127,
+        "year": 2019,
+      },
+      "description": "Callide bos textor cavus tot tertius volo recusandae iure. Coaegresco alias vulgaris. Triduana valde repellendus cauda quisquam.",
+      "id": 127,
+      "isbn": "978-0-13-967645-1",
+      "name": "A Game of Thrones",
+      "page": {
+        "description": "Callide bos textor cavus tot tertius volo recusandae iure. Coaegresco alias vulgaris. Triduana valde repellendus cauda quisquam.",
+        "id": 414,
+        "slug": "a-game-of-thrones",
+        "title": "Book A Game of Thrones",
+        "type": "product",
+      },
+      "pageId": 414,
+      "price": "177",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Coniecto totam antiquus. Denuo spes comedo admoveo tabella pecus illum sunt. Ullam adopto confido eaque pax vulariter aliquid aiunt depopulo.",
+            "id": 41,
+            "name": "Ron Chernow",
+            "pageId": 127,
+          },
+        ],
+        "id": 34,
+        "pages": 224,
+        "productId": 34,
+        "publisherId": 34,
+        "year": 2001,
+      },
+      "description": "Conventus commemoro cursus. Turbo curo spoliatio bestia bellum cicuta coruscus accommodo. Avarus alius appositus tardus illum cilicium tum.",
+      "id": 34,
+      "isbn": "978-1-034-82845-7",
+      "name": "Alexander Hamilton",
+      "page": {
+        "description": "Conventus commemoro cursus. Turbo curo spoliatio bestia bellum cicuta coruscus accommodo. Avarus alius appositus tardus illum cilicium tum.",
+        "id": 125,
+        "slug": "alexander-hamilton",
+        "title": "Book Alexander Hamilton",
+        "type": "product",
+      },
+      "pageId": 125,
+      "price": "97",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Teres calcar ante theologus una amicitia tendo cubo vereor. Communis creta vespillo. Sopor arto altus tametsi carcer vapulus.",
+            "id": 105,
+            "name": "Agatha Christie",
+            "pageId": 323,
+          },
+        ],
+        "id": 97,
+        "pages": 432,
+        "productId": 97,
+        "publisherId": 97,
+        "year": 1994,
+      },
+      "description": "Tandem testimonium ocer verumtamen aiunt territo certe dolor vobis. Copia enim accedo strenuus acies summopere. Vomito concido ex.",
+      "id": 97,
+      "isbn": "978-1-57654-367-2",
+      "name": "And Then There Were None",
+      "page": {
+        "description": "Tandem testimonium ocer verumtamen aiunt territo certe dolor vobis. Copia enim accedo strenuus acies summopere. Vomito concido ex.",
+        "id": 321,
+        "slug": "and-then-there-were-none",
+        "title": "Book And Then There Were None",
+        "type": "product",
+      },
+      "pageId": 321,
+      "price": "225",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Pauper tardus demonstro cauda. Aiunt molestias substantia agnosco. Patrocinor cedo bellicus sumo adstringo velut.",
+            "id": 159,
+            "name": "Sabaa Tahir",
+            "pageId": 491,
+          },
+        ],
+        "id": 151,
+        "pages": 395,
+        "productId": 151,
+        "publisherId": 151,
+        "year": 2016,
+      },
+      "description": "Adduco cariosus vaco artificiose tactus patior. Vulgo substantia adstringo vesica. Supra utique adflicto bellum ipsa cena avarus tendo sint virtus.",
+      "id": 151,
+      "isbn": "978-0-14-153272-1",
+      "name": "An Ember in the Ashes",
+      "page": {
+        "description": "Adduco cariosus vaco artificiose tactus patior. Vulgo substantia adstringo vesica. Supra utique adflicto bellum ipsa cena avarus tendo sint virtus.",
+        "id": 489,
+        "slug": "an-ember-in-the-ashes",
+        "title": "Book An Ember in the Ashes",
+        "type": "product",
+      },
+      "pageId": 489,
+      "price": "101",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Curis copia cavus comis. Claustrum cupressus damnatio sollers demens amicitia eligendi censura. Voluptatum atrocitas curiositas vitium spiculum vester.",
+            "id": 45,
+            "name": "Howard Zinn",
+            "pageId": 139,
+          },
+        ],
+        "id": 38,
+        "pages": 332,
+        "productId": 38,
+        "publisherId": 38,
+        "year": 1992,
+      },
+      "description": "Voluptatem torqueo at arca adsum aetas argumentum patrocinor. Qui veniam coaegresco combibo cotidie possimus. Taceo synagoga colligo dicta congregatio sollicito pecco.",
+      "id": 38,
+      "isbn": "978-0-8092-3800-2",
+      "name": "A People's History of the United States",
+      "page": {
+        "description": "Voluptatem torqueo at arca adsum aetas argumentum patrocinor. Qui veniam coaegresco combibo cotidie possimus. Taceo synagoga colligo dicta congregatio sollic...",
+        "id": 137,
+        "slug": "a-peoples-history-of-the-united-states",
+        "title": "Book A People's History of the United States",
+        "type": "product",
+      },
+      "pageId": 137,
+      "price": "245",
+    },
+    {
+      "book": {
+        "authors": [
+          {
+            "description": "Apto assentator hic vobis complectus. Creber vito crux timor non unde corona aestus. Subnecto ascit curtus aperte umbra.",
+            "id": 150,
+            "name": "James Clear",
+            "pageId": 463,
+          },
+        ],
+        "id": 142,
+        "pages": 69,
+        "productId": 142,
+        "publisherId": 142,
+        "year": 2000,
+      },
+      "description": "Trado terreo adulescens cito canto. Tot viridis arcesso depulso deleo doloremque cena veniam. Cado bis appositus appello collum pecus sufficio.",
+      "id": 142,
+      "isbn": "978-1-341-55560-2",
+      "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "page": {
+        "description": "Trado terreo adulescens cito canto. Tot viridis arcesso depulso deleo doloremque cena veniam. Cado bis appositus appello collum pecus sufficio.",
+        "id": 461,
+        "slug": "atomic-habits-an-easy--proven-way-to-build-good-habits--break-bad-ones",
+        "title": "Book Atomic Habits: An Easy & Proven Way to Build Good Ha...",
+        "type": "product",
+      },
+      "pageId": 461,
+      "price": "451",
+    },
+  ],
+  160,
+]
+`;
+
+exports[`SearchService should return search params 1`] = `
+{
+  "categories": [
+    "",
+  ],
+  "keyword": "",
+  "maxPrice": 499,
+  "maxYear": 2024,
+  "minPrice": 20,
+  "minYear": 1990,
+  "orderBy": "name",
+}
+`;

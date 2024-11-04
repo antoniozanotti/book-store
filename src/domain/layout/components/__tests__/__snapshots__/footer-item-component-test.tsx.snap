@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterItemComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <li>
+      <a
+        class="px-10 py-4 lg:py-0 block"
+        href="/test"
+        title="Test"
+      >
+        Test
+      </a>
+    </li>
+  </div>
+</div>
+`;

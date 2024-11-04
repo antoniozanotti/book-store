@@ -1,0 +1,1100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchFiltersDesktopComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="p-6 lg:p-10 hidden lg:block"
+    >
+      <div>
+        <h2
+          class="font-primary text-pretty text-2xl"
+        >
+          Filter by Category
+        </h2>
+        <div
+          aria-label=" "
+          class="relative flex flex-col gap-2 overflow-hidden"
+          id="react-aria-:r0:"
+          role="group"
+        >
+          <div
+            class="flex flex-col flex-wrap data-[orientation=horizontal]:flex-row gap-0"
+            data-orientation="vertical"
+            role="presentation"
+          >
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Arts and Entertainment"
+                  aria-labelledby=":r5:"
+                  title=""
+                  type="checkbox"
+                  value="arts-and-entertainment"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":r5:"
+              >
+                Arts and Entertainment
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Business and Technology"
+                  aria-labelledby=":r6:"
+                  title=""
+                  type="checkbox"
+                  value="business-and-technology"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":r6:"
+              >
+                Business and Technology
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Graphic Novels"
+                  aria-labelledby=":r7:"
+                  title=""
+                  type="checkbox"
+                  value="graphic-novels"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":r7:"
+              >
+                Graphic Novels
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="History, Biography, and Social Science"
+                  aria-labelledby=":r8:"
+                  title=""
+                  type="checkbox"
+                  value="history-biography-and-social-science"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":r8:"
+              >
+                History, Biography, and Social Science
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Home and Lifestyle"
+                  aria-labelledby=":r9:"
+                  title=""
+                  type="checkbox"
+                  value="home-and-lifestyle"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":r9:"
+              >
+                Home and Lifestyle
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Horror"
+                  aria-labelledby=":ra:"
+                  title=""
+                  type="checkbox"
+                  value="horror"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":ra:"
+              >
+                Horror
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Languages and Travel"
+                  aria-labelledby=":rb:"
+                  title=""
+                  type="checkbox"
+                  value="languages-and-travel"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rb:"
+              >
+                Languages and Travel
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="LGBTQIA+"
+                  aria-labelledby=":rc:"
+                  title=""
+                  type="checkbox"
+                  value="lgbtqia"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rc:"
+              >
+                LGBTQIA+
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Literature and Poetry"
+                  aria-labelledby=":rd:"
+                  title=""
+                  type="checkbox"
+                  value="literature-and-poetry"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rd:"
+              >
+                Literature and Poetry
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Mystery"
+                  aria-labelledby=":re:"
+                  title=""
+                  type="checkbox"
+                  value="mystery"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":re:"
+              >
+                Mystery
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Romance"
+                  aria-labelledby=":rf:"
+                  title=""
+                  type="checkbox"
+                  value="romance"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rf:"
+              >
+                Romance
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Science and Math"
+                  aria-labelledby=":rg:"
+                  title=""
+                  type="checkbox"
+                  value="science-and-math"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rg:"
+              >
+                Science and Math
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Science Fiction and Fantasy"
+                  aria-labelledby=":rh:"
+                  title=""
+                  type="checkbox"
+                  value="science-fiction-and-fantasy"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rh:"
+              >
+                Science Fiction and Fantasy
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Spirituality and Philosophy"
+                  aria-labelledby=":ri:"
+                  title=""
+                  type="checkbox"
+                  value="spirituality-and-philosophy"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":ri:"
+              >
+                Spirituality and Philosophy
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Wellness, Sports, and Outdoors"
+                  aria-labelledby=":rj:"
+                  title=""
+                  type="checkbox"
+                  value="wellness-sports-and-outdoors"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rj:"
+              >
+                Wellness, Sports, and Outdoors
+              </span>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-label="Young Adult"
+                  aria-labelledby=":rk:"
+                  title=""
+                  type="checkbox"
+                  value="young-adult"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden before:content-[''] before:absolute before:inset-0 before:border-solid before:border-2 before:box-border before:border-default after:content-[''] after:absolute after:inset-0 after:scale-50 after:opacity-0 after:origin-center group-data-[selected=true]:after:scale-100 group-data-[selected=true]:after:opacity-100 group-data-[hover=true]:before:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background after:bg-primary after:text-primary-foreground text-primary-foreground w-4 h-4 mr-2 rtl:ml-2 rtl:mr-[unset] rounded-[calc(theme(borderRadius.medium)*0.5)] before:rounded-[calc(theme(borderRadius.medium)*0.5)] after:rounded-[calc(theme(borderRadius.medium)*0.5)] before:transition-colors group-data-[pressed=true]:scale-95 transition-transform after:transition-transform-opacity after:!ease-linear after:!duration-200 motion-reduce:transition-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="z-10 opacity-0 group-data-[selected=true]:opacity-100 w-3 h-2 transition-opacity motion-reduce:transition-none"
+                  role="presentation"
+                  viewBox="0 0 17 18"
+                >
+                  <polyline
+                    fill="none"
+                    points="1 9 7 14 15 4"
+                    stroke="currentColor"
+                    stroke-dasharray="22"
+                    stroke-dashoffset="66"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </svg>
+              </span>
+              <span
+                class="relative text-foreground select-none text-small transition-colors-opacity before:transition-width motion-reduce:transition-none py-2"
+                id=":rk:"
+              >
+                Young Adult
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-10"
+      >
+        <h2
+          class="font-primary text-pretty text-2xl"
+        >
+          Additional Filters
+        </h2>
+        <div
+          class="flex flex-col gap-2 w-full h-full items-start justify-center overflow-hidden"
+        >
+          <div
+            aria-labelledby="react-aria-:rm:"
+            class="flex flex-col w-full gap-1"
+            data-hover="false"
+            data-orientation="horizontal"
+            data-slot="base"
+            id="react-aria-:rl:"
+            role="group"
+          >
+            <div
+              class="w-full flex justify-between items-center"
+              data-slot="labelWrapper"
+            >
+              <label
+                class="text-small"
+                data-slot="label"
+                id="react-aria-:rm:"
+              >
+                Price
+              </label>
+              <output
+                aria-live="off"
+                class="text-small"
+                data-slot="value"
+                for="react-aria-:rm:-0 react-aria-:rm:-1"
+              >
+                $20.00 – $490.00
+              </output>
+            </div>
+            <div
+              class="relative flex gap-2 items-center"
+              data-slot="track-wrapper"
+            >
+              <div
+                class="flex w-full relative rounded-full bg-default-300/50 border-x-transparent h-1 my-[calc((theme(spacing.5)-theme(spacing.1))/2)] data-[thumb-hidden=false]:border-x-[calc(theme(spacing.5)/2)]"
+                data-slot="track"
+                data-thumb-hidden="false"
+                data-vertical="false"
+                style="position: relative;"
+              >
+                <div
+                  class="h-full absolute bg-primary"
+                  data-slot="filler"
+                  style="left: 0%; width: 98.12108559498957%;"
+                />
+                <div
+                  class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                  data-slot="thumb"
+                  index="0"
+                  orientation="horizontal"
+                  style="position: absolute; left: 0%; transform: translate(-50%, -50%);"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby=""
+                      aria-details=""
+                      aria-labelledby="react-aria-:rm:"
+                      aria-orientation="horizontal"
+                      aria-valuetext="$20.00"
+                      id="react-aria-:rm:-0"
+                      max="490"
+                      min="20"
+                      step="10"
+                      tabindex="0"
+                      type="range"
+                      value="20"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                  data-slot="thumb"
+                  index="1"
+                  orientation="horizontal"
+                  style="position: absolute; left: 98.12108559498957%; transform: translate(-50%, -50%);"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby=""
+                      aria-details=""
+                      aria-labelledby="react-aria-:rm:"
+                      aria-orientation="horizontal"
+                      aria-valuetext="$490.00"
+                      id="react-aria-:rm:-1"
+                      max="499"
+                      min="20"
+                      step="10"
+                      tabindex="0"
+                      type="range"
+                      value="490"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-2 w-full h-full items-start justify-center overflow-hidden pt-10"
+        >
+          <div
+            aria-labelledby="react-aria-:rv:"
+            class="flex flex-col w-full gap-1"
+            data-hover="false"
+            data-orientation="horizontal"
+            data-slot="base"
+            id="react-aria-:ru:"
+            role="group"
+          >
+            <div
+              class="w-full flex justify-between items-center"
+              data-slot="labelWrapper"
+            >
+              <label
+                class="text-small"
+                data-slot="label"
+                id="react-aria-:rv:"
+              >
+                Publication year
+              </label>
+              <output
+                aria-live="off"
+                class="text-small"
+                data-slot="value"
+                for="react-aria-:rv:-0 react-aria-:rv:-1"
+              >
+                1990–2024
+              </output>
+            </div>
+            <div
+              class="relative flex gap-2 items-center"
+              data-slot="track-wrapper"
+            >
+              <div
+                class="flex w-full relative rounded-full bg-default-300/50 border-x-transparent h-1 my-[calc((theme(spacing.5)-theme(spacing.1))/2)] data-[thumb-hidden=false]:border-x-[calc(theme(spacing.5)/2)]"
+                data-slot="track"
+                data-thumb-hidden="false"
+                data-vertical="false"
+                style="position: relative;"
+              >
+                <div
+                  class="h-full absolute bg-primary"
+                  data-slot="filler"
+                  style="left: 0%; width: 100%;"
+                />
+                <div
+                  class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                  data-slot="thumb"
+                  index="0"
+                  orientation="horizontal"
+                  style="position: absolute; left: 0%; transform: translate(-50%, -50%);"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby=""
+                      aria-details=""
+                      aria-labelledby="react-aria-:rv:"
+                      aria-orientation="horizontal"
+                      aria-valuetext="1990"
+                      id="react-aria-:rv:-0"
+                      max="2024"
+                      min="1990"
+                      step="1"
+                      tabindex="0"
+                      type="range"
+                      value="1990"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-center before:absolute before:w-11 before:h-11 before:rounded-full after:shadow-small after:bg-background data-[focused=true]:z-10 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 w-5 h-5 after:w-4 after:h-4 rounded-full after:rounded-full bg-primary top-1/2 cursor-grab data-[dragging=true]:cursor-grabbing ring-transparent border-0 after:transition-all motion-reduce:after:transition-none data-[dragging=true]:after:scale-80 shadow-small"
+                  data-slot="thumb"
+                  index="1"
+                  orientation="horizontal"
+                  style="position: absolute; left: 100%; transform: translate(-50%, -50%);"
+                >
+                  <div
+                    style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                  >
+                    <input
+                      aria-describedby=""
+                      aria-details=""
+                      aria-labelledby="react-aria-:rv:"
+                      aria-orientation="horizontal"
+                      aria-valuetext="2024"
+                      id="react-aria-:rv:-1"
+                      max="2024"
+                      min="1990"
+                      step="1"
+                      tabindex="0"
+                      type="range"
+                      value="2024"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-10"
+      >
+        <h2
+          class="font-primary text-pretty text-2xl"
+        >
+          Order by
+        </h2>
+        <div
+          aria-label=" "
+          aria-orientation="vertical"
+          class="relative flex flex-col gap-2"
+          id="react-aria-:r17:"
+          role="radiogroup"
+        >
+          <div
+            class="flex flex-col flex-wrap data-[orientation=horizontal]:flex-row gap-0"
+            data-orientation="vertical"
+            role="presentation"
+          >
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+              data-selected="true"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-describedby="react-aria-:r1a:"
+                  aria-label="Title"
+                  aria-labelledby=":r1d:"
+                  checked=""
+                  name="react-aria-:r1c:"
+                  tabindex="0"
+                  title=""
+                  type="radio"
+                  value="name"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+              >
+                <span
+                  class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+                />
+              </span>
+              <div
+                class="flex flex-col ml-1"
+              >
+                <span
+                  class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+                  id=":r1d:"
+                >
+                  Title
+                </span>
+              </div>
+            </label>
+            <hr
+              class="shrink-0 bg-divider border-none w-full h-divider"
+              role="separator"
+            />
+            <label
+              class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+            >
+              <div
+                style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+              >
+                <input
+                  aria-describedby="react-aria-:r1a:"
+                  aria-label="Price"
+                  aria-labelledby=":r1e:"
+                  name="react-aria-:r1c:"
+                  tabindex="-1"
+                  title=""
+                  type="radio"
+                  value="price"
+                />
+              </div>
+              <span
+                aria-hidden="true"
+                class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+              >
+                <span
+                  class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+                />
+              </span>
+              <div
+                class="flex flex-col ml-1"
+              >
+                <span
+                  class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+                  id=":r1e:"
+                >
+                  Price
+                </span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CmsPageComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <main
+      class="p-10"
+    >
+      <h1
+        class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+      >
+        About Us
+      </h1>
+      <p
+        class="mt-4"
+      >
+        Color acceptus usitas ultio basium ascisco supplanto tametsi adstringo volup. Comminor perspiciatis universe laboriosam vulnero maiores cibus acsi assentator adicio. Coadunatio pel baiulus titulus sordeo tamquam aperio verbera.
+Pecco demoror timidus sub a dedico urbs articulus aiunt. Cognatus sordeo vergo cupio alias crebro theologus tunc error. Claustrum subseco ventus sordeo aliquam vulgo.
+Velociter territo voluntarius cavus delectatio culpo beneficium universe contigo earum. Patrocinor curvo voluptate dolorem delego vir. Facere vitae vir concido.
+      </p>
+    </main>
+  </div>
+</div>
+`;

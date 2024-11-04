@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundPageComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <main
+      class="p-10"
+    >
+      <h1
+        class="font-primary text-pretty text-5xl sm:text-6xl md:text-7xl lg:text-8xl"
+      >
+        Not Found
+      </h1>
+      <p>
+        Could not find requested resource.
+      </p>
+      <a
+        href="/"
+      >
+        Return Home.
+      </a>
+    </main>
+  </div>
+</div>
+`;

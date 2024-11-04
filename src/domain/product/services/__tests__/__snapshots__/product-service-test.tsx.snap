@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductService should return product by id 1`] = `
+{
+  "book": {
+    "authors": [
+      {
+        "description": "Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.",
+        "id": 146,
+        "name": "Don Miguel Ruiz",
+        "pageId": 450,
+      },
+    ],
+    "id": 138,
+    "pages": 400,
+    "productId": 138,
+    "publisherId": 138,
+    "year": 2024,
+  },
+  "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+  "id": 138,
+  "isbn": "978-1-315-92574-5",
+  "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+  "page": {
+    "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+    "id": 448,
+    "slug": "the-four-agreements-a-practical-guide-to-personal-freedom",
+    "title": "Book The Four Agreements: A Practical Guide to Personal F...",
+    "type": "product",
+  },
+  "pageId": 448,
+  "price": "302",
+}
+`;
+
+exports[`ProductService should return product with related products by slug 1`] = `
+{
+  "book": {
+    "authors": [
+      {
+        "books": [],
+        "description": "Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.",
+        "id": 146,
+        "name": "Don Miguel Ruiz",
+        "page": {
+          "description": "Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.",
+          "id": 450,
+          "slug": "don-miguel-ruiz",
+          "title": "Don Miguel Ruiz's Books",
+          "type": "author",
+        },
+        "pageId": 450,
+      },
+    ],
+    "id": 138,
+    "pages": 400,
+    "productId": 138,
+    "publisher": {
+      "description": "Laborum cedo decumbo adhuc explicabo anser corpus congregatio. Facere colo apud callide adipiscor auctus vitiosus aro. Templum adulatio creptio deleniti eum colo.",
+      "id": 138,
+      "name": "Hoeger - Swaniawski",
+      "page": {
+        "description": "Laborum cedo decumbo adhuc explicabo anser corpus congregatio. Facere colo apud callide adipiscor auctus vitiosus aro. Templum adulatio creptio deleniti eum ...",
+        "id": 449,
+        "slug": "hoeger--swaniawski",
+        "title": "Books published by Hoeger - Swaniawski",
+        "type": "publisher",
+      },
+      "pageId": 449,
+    },
+    "publisherId": 138,
+    "year": 2024,
+  },
+  "categories": [
+    {
+      "description": "Thema tripudio aliquid eum. Enim stultus bis vetus pecus tersus. Debilito nihil demulceo tepesco adhuc admiratio tremo timor.",
+      "id": 14,
+      "name": "Spirituality and Philosophy",
+      "page": {
+        "description": "Thema tripudio aliquid eum. Enim stultus bis vetus pecus tersus. Debilito nihil demulceo tepesco adhuc admiratio tremo timor.",
+        "id": 426,
+        "slug": "spirituality-and-philosophy",
+        "title": "Spirituality and Philosophy Books",
+        "type": "category",
+      },
+      "pageId": 426,
+      "products": [
+        {
+          "book": {
+            "authors": [
+              {
+                "description": "Ultio ago aeneus vesica eligendi summa titulus spiritus appello admitto. Utpote amiculum dedico ultra condico commemoro aiunt amissio aliquam anser. Auctus adeptio suscipit triumphus.",
+                "id": 139,
+                "name": "Kahlil Gibran",
+                "pageId": 429,
+              },
+            ],
+            "id": 131,
+            "pages": 376,
+            "productId": 131,
+            "publisherId": 131,
+            "year": 2000,
+          },
+          "description": "Aeternus saepe error barba tabula chirographum eaque careo. Omnis cicuta adiuvo itaque accusamus aufero sto. Asporto deludo sto voluptatum trans crudelis terror.",
+          "id": 131,
+          "isbn": "978-1-60898-018-5",
+          "name": "The Prophet",
+          "page": {
+            "description": "Aeternus saepe error barba tabula chirographum eaque careo. Omnis cicuta adiuvo itaque accusamus aufero sto. Asporto deludo sto voluptatum trans crudelis ter...",
+            "id": 427,
+            "slug": "the-prophet",
+            "title": "Book The Prophet",
+            "type": "product",
+          },
+          "pageId": 427,
+          "price": "433",
+        },
+        {
+          "book": {
+            "authors": [
+              {
+                "description": "Arguo thesis victus caelum teneo auxilium tantillus autem impedit. Vulpes civis ara vulnus. Truculenter vigilo derideo coerceo voro suppono calamitas copia.",
+                "id": 140,
+                "name": "Benjamin Hoff",
+                "pageId": 432,
+              },
+            ],
+            "id": 132,
+            "pages": 305,
+            "productId": 132,
+            "publisherId": 132,
+            "year": 2012,
+          },
+          "description": "Sustineo vesco celer tantillus cubo paens ocer. Tumultus toties sufficio virga vaco sto eaque acervus vestrum adinventitias. Veritatis accommodo curvo minus crur textilis nesciunt repudiandae carpo attollo.",
+          "id": 132,
+          "isbn": "978-1-383-22780-2",
+          "name": "Tao of Pooh",
+          "page": {
+            "description": "Sustineo vesco celer tantillus cubo paens ocer. Tumultus toties sufficio virga vaco sto eaque acervus vestrum adinventitias. Veritatis accommodo curvo minus ...",
+            "id": 430,
+            "slug": "tao-of-pooh",
+            "title": "Book Tao of Pooh",
+            "type": "product",
+          },
+          "pageId": 430,
+          "price": "496",
+        },
+        {
+          "book": {
+            "authors": [
+              {
+                "description": "Unus expedita dapifer dens aequitas venustas casso. Adfectus urbanus alioqui vesica creta tribuo. Adnuo ver stipes capto tamdiu statim ait aegre vapulus.",
+                "id": 141,
+                "name": "M. Scott Peck",
+                "pageId": 435,
+              },
+            ],
+            "id": 133,
+            "pages": 271,
+            "productId": 133,
+            "publisherId": 133,
+            "year": 2000,
+          },
+          "description": "Approbo accendo cedo bene caritas. Demens conspergo adipisci statua cervus corroboro averto cur. Libero aperio apto.",
+          "id": 133,
+          "isbn": "978-0-374-28271-4",
+          "name": "The Road Less Traveled: A New Psychology of Love, Traditional Values, and Spiritual Growth",
+          "page": {
+            "description": "Approbo accendo cedo bene caritas. Demens conspergo adipisci statua cervus corroboro averto cur. Libero aperio apto.",
+            "id": 433,
+            "slug": "the-road-less-traveled-a-new-psychology-of-love-traditional-values-and-spiritual-growth",
+            "title": "Book The Road Less Traveled: A New Psychology of Love, Tr...",
+            "type": "product",
+          },
+          "pageId": 433,
+          "price": "461",
+        },
+      ],
+    },
+  ],
+  "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+  "id": 138,
+  "isbn": "978-1-315-92574-5",
+  "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+  "page": {
+    "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+    "id": 448,
+    "slug": "the-four-agreements-a-practical-guide-to-personal-freedom",
+    "title": "Book The Four Agreements: A Practical Guide to Personal F...",
+    "type": "product",
+  },
+  "pageId": 448,
+  "price": "302",
+}
+`;
+
+exports[`ProductService should return products with page and book 1`] = `
+[
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.",
+          "id": 146,
+          "name": "Don Miguel Ruiz",
+          "pageId": 450,
+        },
+      ],
+      "id": 138,
+      "pages": 400,
+      "productId": 138,
+      "publisherId": 138,
+      "year": 2024,
+    },
+    "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+    "id": 138,
+    "isbn": "978-1-315-92574-5",
+    "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+    "page": {
+      "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+      "id": 448,
+      "slug": "the-four-agreements-a-practical-guide-to-personal-freedom",
+      "title": "Book The Four Agreements: A Practical Guide to Personal F...",
+      "type": "product",
+    },
+    "pageId": 448,
+    "price": "302",
+  },
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Commodo sufficio aqua dedecor culpa creo contigo. Assentator vallum talus sodalitas strenuus cognatus demulceo vae decumbo trepide. Stultus vis trado voro denuncio.",
+          "id": 162,
+          "name": "Stephen Chbosky",
+          "pageId": 500,
+        },
+      ],
+      "id": 154,
+      "pages": 143,
+      "productId": 154,
+      "publisherId": 154,
+      "year": 2024,
+    },
+    "description": "Aptus aer clarus centum. Confugo timor blanditiis contigo tersus sordeo universe titulus. Carus vita turba accommodo textilis voluptate terreo.",
+    "id": 154,
+    "isbn": "978-1-886201-83-5",
+    "name": "The Perks of Being a Wallflower",
+    "page": {
+      "description": "Aptus aer clarus centum. Confugo timor blanditiis contigo tersus sordeo universe titulus. Carus vita turba accommodo textilis voluptate terreo.",
+      "id": 498,
+      "slug": "the-perks-of-being-a-wallflower",
+      "title": "Book The Perks of Being a Wallflower",
+      "type": "product",
+    },
+    "pageId": 498,
+    "price": "467",
+  },
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Non urbanus atque cerno copia damnatio. Vorago temeritas quod undique corona. Veritas strenuus corrupti.",
+          "id": 130,
+          "name": "Andy Weir",
+          "pageId": 401,
+        },
+      ],
+      "id": 122,
+      "pages": 278,
+      "productId": 122,
+      "publisherId": 122,
+      "year": 2024,
+    },
+    "description": "Conspergo bellum cicuta averto comparo antea. Caterva culpa amaritudo adulescens et totam uxor crudelis verbum valde. Vindico carus tardus.",
+    "id": 122,
+    "isbn": "978-1-4606-4004-3",
+    "name": "The Martian",
+    "page": {
+      "description": "Conspergo bellum cicuta averto comparo antea. Caterva culpa amaritudo adulescens et totam uxor crudelis verbum valde. Vindico carus tardus.",
+      "id": 399,
+      "slug": "the-martian",
+      "title": "Book The Martian",
+      "type": "product",
+    },
+    "pageId": 399,
+    "price": "386",
+  },
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Depromo creta creator suffragium cicuta astrum audentia ulterius coadunatio. Valde apto abduco quas clamo ait vestigium subnecto. Valetudo adfectus crur curis accedo vomica conitor doloribus colligo.",
+          "id": 50,
+          "name": "Isabel Gillies",
+          "pageId": 155,
+        },
+      ],
+      "id": 43,
+      "pages": 145,
+      "productId": 43,
+      "publisherId": 43,
+      "year": 2024,
+    },
+    "description": "Natus desolo admitto coadunatio ciminatio itaque tristis deserunt. Desolo tandem utrum ultio. Derideo voro aveho ab neque vel soleo custodia corpus.",
+    "id": 43,
+    "isbn": "978-1-7131-1984-5",
+    "name": "Cozy: The Art of Arranging Yourself in the World",
+    "page": {
+      "description": "Natus desolo admitto coadunatio ciminatio itaque tristis deserunt. Desolo tandem utrum ultio. Derideo voro aveho ab neque vel soleo custodia corpus.",
+      "id": 153,
+      "slug": "cozy-the-art-of-arranging-yourself-in-the-world",
+      "title": "Book Cozy: The Art of Arranging Yourself in the World",
+      "type": "product",
+    },
+    "pageId": 153,
+    "price": "201",
+  },
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Considero calcar cui labore. Bestia abutor perferendis color ventus cilicium contigo thema peior. Patruus callide ad audax ara soluta usus peccatus abundans.",
+          "id": 28,
+          "name": "Jeff Smith",
+          "pageId": 93,
+        },
+      ],
+      "id": 24,
+      "pages": 128,
+      "productId": 24,
+      "publisherId": 24,
+      "year": 2023,
+    },
+    "description": "Aranea uterque spargo. Ullam velociter aiunt conventus aduro amissio necessitatibus viduo ullam praesentium. Quas bibo cras crudelis absconditus perferendis delectus.",
+    "id": 24,
+    "isbn": "978-0-00-141481-5",
+    "name": "Bone",
+    "page": {
+      "description": "Aranea uterque spargo. Ullam velociter aiunt conventus aduro amissio necessitatibus viduo ullam praesentium. Quas bibo cras crudelis absconditus perferendis ...",
+      "id": 91,
+      "slug": "bone",
+      "title": "Book Bone",
+      "type": "product",
+    },
+    "pageId": 91,
+    "price": "436",
+  },
+  {
+    "book": {
+      "authors": [
+        {
+          "description": "Quidem incidunt confugo aedificium minima ago asporto ascisco cernuus. Turba valeo verus armarium voluptatem at contego. Taceo spiculum administratio.",
+          "id": 63,
+          "name": "Stephen King",
+          "pageId": 193,
+        },
+      ],
+      "id": 55,
+      "pages": 68,
+      "productId": 55,
+      "publisherId": 55,
+      "year": 2021,
+    },
+    "description": "Currus conturbo solutio vere coerceo copiose adimpleo dicta. Sordeo tabernus adeptio ultra consequuntur ventito celebrer calco amo atrocitas. Temperantia correptius amplitudo absque torrens casso illo contra depraedor.",
+    "id": 55,
+    "isbn": "978-1-101-96204-6",
+    "name": "Pet Sematary",
+    "page": {
+      "description": "Currus conturbo solutio vere coerceo copiose adimpleo dicta. Sordeo tabernus adeptio ultra consequuntur ventito celebrer calco amo atrocitas. Temperantia cor...",
+      "id": 191,
+      "slug": "pet-sematary",
+      "title": "Book Pet Sematary",
+      "type": "product",
+    },
+    "pageId": 191,
+    "price": "242",
+  },
+]
+`;

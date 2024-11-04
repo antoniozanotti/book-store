@@ -5,7 +5,6 @@ import { useState, useRef } from "react";
 import { UiCollapsibleComponentInterface } from "./ui-collapsible-component-interface";
 
 export function UiCollapsibleComponent({
-  shouldCloseWhenOutside,
   theHeader,
   theContent,
   ...props

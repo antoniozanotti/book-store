@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetailsComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div>
+      <h2
+        class="font-primary text-pretty text-3xl mt-10"
+      >
+        Product Details
+      </h2>
+      <table
+        class="text-left"
+      >
+        <tbody>
+          <tr>
+            <th
+              scope="row"
+            >
+              Year
+            </th>
+            <td>
+              2024
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="row"
+            >
+              Pages
+            </th>
+            <td>
+              400
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="row"
+            >
+              Publisher
+            </th>
+            <td>
+              Hoeger - Swaniawski
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="row"
+            >
+              ISBN
+            </th>
+            <td>
+              978-1-315-92574-5
+            </td>
+          </tr>
+          <tr>
+            <th
+              scope="row"
+            >
+              Category
+            </th>
+            <td>
+              <a
+                class="underline"
+                href="/category/spirituality-and-philosophy"
+                title="Spirituality and Philosophy"
+              >
+                Spirituality and Philosophy
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

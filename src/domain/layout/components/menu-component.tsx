@@ -24,7 +24,6 @@ export function MenuComponent({ ...props }: React.ComponentProps<"nav">) {
         <FormatedDivider />
         <MenuItemComponent>
           <UiCollapsibleComponent
-            shouldCloseWhenOutside={true}
             theHeader="Books"
             theContent={
               <ul className="text-sm">

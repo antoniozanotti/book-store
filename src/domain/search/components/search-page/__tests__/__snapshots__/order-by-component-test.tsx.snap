@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderByComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      aria-label=" "
+      aria-orientation="vertical"
+      class="relative flex flex-col gap-2"
+      id="react-aria-:r0:"
+      role="radiogroup"
+    >
+      <div
+        class="flex flex-col flex-wrap data-[orientation=horizontal]:flex-row gap-0"
+        data-orientation="vertical"
+        role="presentation"
+      >
+        <label
+          class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+          data-selected="true"
+        >
+          <div
+            style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+          >
+            <input
+              aria-describedby="react-aria-:r3:"
+              aria-label="Title"
+              aria-labelledby=":r6:"
+              checked=""
+              name="react-aria-:r5:"
+              tabindex="0"
+              title=""
+              type="radio"
+              value="name"
+            />
+          </div>
+          <span
+            aria-hidden="true"
+            class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+          >
+            <span
+              class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+            />
+          </span>
+          <div
+            class="flex flex-col ml-1"
+          >
+            <span
+              class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+              id=":r6:"
+            >
+              Title
+            </span>
+          </div>
+        </label>
+        <hr
+          class="shrink-0 bg-divider border-none w-full h-divider"
+          role="separator"
+        />
+        <label
+          class="group relative max-w-fit inline-flex items-center justify-start cursor-pointer tap-highlight-transparent p-2 -m-2"
+        >
+          <div
+            style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+          >
+            <input
+              aria-describedby="react-aria-:r3:"
+              aria-label="Price"
+              aria-labelledby=":r7:"
+              name="react-aria-:r5:"
+              tabindex="-1"
+              title=""
+              type="radio"
+              value="price"
+            />
+          </div>
+          <span
+            aria-hidden="true"
+            class="relative inline-flex items-center justify-center flex-shrink-0 overflow-hidden border-solid border-medium box-border border-default rounded-full group-data-[hover-unselected=true]:bg-default-100 outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:border-primary w-4 h-4 group-data-[pressed=true]:scale-95 transition-transform-colors motion-reduce:transition-none"
+          >
+            <span
+              class="z-10 opacity-0 scale-0 origin-center rounded-full group-data-[selected=true]:opacity-100 group-data-[selected=true]:scale-100 bg-primary text-primary-foreground w-1.5 h-1.5 transition-transform-opacity motion-reduce:transition-none"
+            />
+          </span>
+          <div
+            class="flex flex-col ml-1"
+          >
+            <span
+              class="relative text-foreground select-none text-small transition-colors motion-reduce:transition-none py-2"
+              id=":r7:"
+            >
+              Price
+            </span>
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

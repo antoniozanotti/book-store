@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreByCategoryComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <section
+      class="p-4 pb-10 md:p-10"
+    >
+      <h2
+        class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+      >
+        Explore Our Top Categories
+      </h2>
+      <div
+        class="snap-x overflow-x-auto flex sm:flex-wrap sm:justify-center sm:gap-2"
+      >
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/arts-and-entertainment"
+            title="Arts and Entertainment"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Arts and Entertainment"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/arts-and-entertainment?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/arts-and-entertainment"
+              title="Arts and Entertainment"
+            >
+              Arts and Entertainment
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/business-and-technology"
+            title="Business and Technology"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Business and Technology"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/business-and-technology?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/business-and-technology"
+              title="Business and Technology"
+            >
+              Business and Technology
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/graphic-novels"
+            title="Graphic Novels"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Graphic Novels"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/graphic-novels?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/graphic-novels"
+              title="Graphic Novels"
+            >
+              Graphic Novels
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/history-biography-and-social-science"
+            title="History, Biography, and Social Science"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="History, Biography, and Social Science"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/history-biography-and-social-science?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/history-biography-and-social-science"
+              title="History, Biography, and Social Science"
+            >
+              History, Biography, and Social Science
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/home-and-lifestyle"
+            title="Home and Lifestyle"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Home and Lifestyle"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/home-and-lifestyle?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/home-and-lifestyle"
+              title="Home and Lifestyle"
+            >
+              Home and Lifestyle
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/horror"
+            title="Horror"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Horror"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/horror?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/horror"
+              title="Horror"
+            >
+              Horror
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/languages-and-travel"
+            title="Languages and Travel"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Languages and Travel"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/languages-and-travel?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/languages-and-travel"
+              title="Languages and Travel"
+            >
+              Languages and Travel
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/lgbtqia"
+            title="LGBTQIA+"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="LGBTQIA+"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/lgbtqia?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/lgbtqia"
+              title="LGBTQIA+"
+            >
+              LGBTQIA+
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/literature-and-poetry"
+            title="Literature and Poetry"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Literature and Poetry"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/literature-and-poetry?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/literature-and-poetry"
+              title="Literature and Poetry"
+            >
+              Literature and Poetry
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/mystery"
+            title="Mystery"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Mystery"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/mystery?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/mystery"
+              title="Mystery"
+            >
+              Mystery
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/romance"
+            title="Romance"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Romance"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/romance?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/romance"
+              title="Romance"
+            >
+              Romance
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/science-and-math"
+            title="Science and Math"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Science and Math"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/science-and-math?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/science-and-math"
+              title="Science and Math"
+            >
+              Science and Math
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/science-fiction-and-fantasy"
+            title="Science Fiction and Fantasy"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Science Fiction and Fantasy"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/science-fiction-and-fantasy?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/science-fiction-and-fantasy"
+              title="Science Fiction and Fantasy"
+            >
+              Science Fiction and Fantasy
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/spirituality-and-philosophy"
+            title="Spirituality and Philosophy"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Spirituality and Philosophy"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/spirituality-and-philosophy?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/spirituality-and-philosophy"
+              title="Spirituality and Philosophy"
+            >
+              Spirituality and Philosophy
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/wellness-sports-and-outdoors"
+            title="Wellness, Sports, and Outdoors"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Wellness, Sports, and Outdoors"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/wellness-sports-and-outdoors?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/wellness-sports-and-outdoors"
+              title="Wellness, Sports, and Outdoors"
+            >
+              Wellness, Sports, and Outdoors
+            </a>
+          </p>
+        </article>
+        <article
+          class="snap-start p-5 w-[227px] h-[361px] flex-none text-sm text-pretty"
+        >
+          <a
+            href="/category/young-adult"
+            title="Young Adult"
+          >
+            <figure
+              class="bg-green-300 w-[187px] h-[249px] overflow-hidden"
+            >
+              <img
+                alt="Young Adult"
+                class="transition-all hover:-mt-[20px]"
+                data-nimg="1"
+                decoding="async"
+                height="269"
+                loading="lazy"
+                sizes="187px"
+                src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0"
+                srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/category/young-adult?_a=BAVARSDW0 3840w"
+                style="color: transparent;"
+                width="187"
+              />
+            </figure>
+          </a>
+          <p
+            class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+          >
+            <a
+              href="/category/young-adult"
+              title="Young Adult"
+            >
+              Young Adult
+            </a>
+          </p>
+        </article>
+      </div>
+    </section>
+  </div>
+</div>
+`;

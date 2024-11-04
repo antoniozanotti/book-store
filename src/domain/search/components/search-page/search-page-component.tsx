@@ -52,7 +52,7 @@ export function SearchPageComponent() {
     maxYear.toString(),
     orderBy
   );
-
+  
   return (
     <div className="flex flex-col lg:flex-row">
       <aside className="basis-1/4 relative">

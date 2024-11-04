@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorCardComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <article
+      class="p-5 w-[227px] h-[267px] flex-none text-sm text-pretty"
+    >
+      <a
+        href="/author/kevin-kwan"
+        rel="author"
+        title="Kevin Kwan"
+      >
+        <figure
+          class="bg-green-300 w-[187px] h-[187px] relative overflow-hidden rounded-full"
+        >
+          <img
+            alt="Kevin Kwan"
+            class="transition-all w-[187px] h-[187px] hover:w-[207px] hover:h-[207px] hover:-mt-[10px] object-cover"
+            data-nimg="1"
+            decoding="async"
+            height="207"
+            loading="lazy"
+            sizes="207px"
+            src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_3840,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0"
+            srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_16,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_32,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_48,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_64,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_96,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_128,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_256,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_384,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_640,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_750,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_828,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1080,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1200,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_1920,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2048,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_3840,g_auto/f_auto/q_auto/v1/author/kevin-kwan?_a=BAVARSDW0 3840w"
+            style="color: transparent;"
+            width="207"
+          />
+        </figure>
+      </a>
+      <p
+        class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+      >
+        <a
+          href="/author/kevin-kwan"
+          rel="author"
+          title="Kevin Kwan"
+        >
+          Kevin Kwan
+        </a>
+      </p>
+    </article>
+  </div>
+</div>
+`;

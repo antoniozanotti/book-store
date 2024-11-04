@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductLinkComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <a
+      href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+      title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+    >
+      Test
+    </a>
+  </div>
+</div>
+`;

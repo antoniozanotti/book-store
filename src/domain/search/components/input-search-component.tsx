@@ -8,7 +8,7 @@ import { FormEvent } from "react";
 import { useCustomRouter } from "@/helpers/use-custom-router";
 
 export function InputSearchComponent() {
-  const keyword = useSearchContext().state.keyword;
+  const keyword = useSearchContext().state?.keyword;
   const searchDispatch = useSearchContext().dispatch;
   const customRouter = useCustomRouter();
 

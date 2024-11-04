@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoriesWithLinkComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <a
+      class="underline"
+      href="/category/arts-and-entertainment"
+      title="Arts and Entertainment"
+    >
+      Arts and Entertainment
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/business-and-technology"
+      title="Business and Technology"
+    >
+      Business and Technology
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/graphic-novels"
+      title="Graphic Novels"
+    >
+      Graphic Novels
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/history-biography-and-social-science"
+      title="History, Biography, and Social Science"
+    >
+      History, Biography, and Social Science
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/home-and-lifestyle"
+      title="Home and Lifestyle"
+    >
+      Home and Lifestyle
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/horror"
+      title="Horror"
+    >
+      Horror
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/languages-and-travel"
+      title="Languages and Travel"
+    >
+      Languages and Travel
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/lgbtqia"
+      title="LGBTQIA+"
+    >
+      LGBTQIA+
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/literature-and-poetry"
+      title="Literature and Poetry"
+    >
+      Literature and Poetry
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/mystery"
+      title="Mystery"
+    >
+      Mystery
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/romance"
+      title="Romance"
+    >
+      Romance
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/science-and-math"
+      title="Science and Math"
+    >
+      Science and Math
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/science-fiction-and-fantasy"
+      title="Science Fiction and Fantasy"
+    >
+      Science Fiction and Fantasy
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/spirituality-and-philosophy"
+      title="Spirituality and Philosophy"
+    >
+      Spirituality and Philosophy
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/wellness-sports-and-outdoors"
+      title="Wellness, Sports, and Outdoors"
+    >
+      Wellness, Sports, and Outdoors
+    </a>
+    , 
+    <a
+      class="underline"
+      href="/category/young-adult"
+      title="Young Adult"
+    >
+      Young Adult
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <nav
+      aria-label="Main Navigation"
+      class="hidden lg:block"
+    >
+      <ul
+        class="flex flex-col lg:flex-row justify-center lg:w-fit mx-auto overflow-hidden lg:gap-[2px] lg:rounded-full leading-[16px] text-primary-800"
+      >
+        <li
+          class="bg-primary-300 hover:bg-primary-400"
+        >
+          <a
+            class="p-4 lg:px-10 lg:py-2 block"
+            href="/about-us"
+            title="About Us"
+          >
+            About Us
+          </a>
+        </li>
+        <hr
+          class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+          role="separator"
+        />
+        <li
+          class="bg-primary-300 hover:bg-primary-400"
+        >
+          <div>
+            <button
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="flex cursor-pointer gap-2 p-4 lg:px-10 lg:py-2 items-center"
+              tabindex="0"
+            >
+              <span
+                class="grow"
+              >
+                Books
+              </span>
+              <svg
+                class="lucide lucide-chevron-left size-4"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m15 18-6-6 6-6"
+                />
+              </svg>
+            </button>
+            <div
+              class="hidden"
+            >
+              <ul
+                class="text-sm"
+              >
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/arts-and-entertainment"
+                    title="Arts and Entertainment"
+                  >
+                    Arts and Entertainment
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/business-and-technology"
+                    title="Business and Technology"
+                  >
+                    Business and Technology
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/graphic-novels"
+                    title="Graphic Novels"
+                  >
+                    Graphic Novels
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/history-biography-and-social-science"
+                    title="History, Biography, and Social Science"
+                  >
+                    History, Biography, and Social Science
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/home-and-lifestyle"
+                    title="Home and Lifestyle"
+                  >
+                    Home and Lifestyle
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/horror"
+                    title="Horror"
+                  >
+                    Horror
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/languages-and-travel"
+                    title="Languages and Travel"
+                  >
+                    Languages and Travel
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/lgbtqia"
+                    title="LGBTQIA+"
+                  >
+                    LGBTQIA+
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/literature-and-poetry"
+                    title="Literature and Poetry"
+                  >
+                    Literature and Poetry
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/mystery"
+                    title="Mystery"
+                  >
+                    Mystery
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/romance"
+                    title="Romance"
+                  >
+                    Romance
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/science-and-math"
+                    title="Science and Math"
+                  >
+                    Science and Math
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/science-fiction-and-fantasy"
+                    title="Science Fiction and Fantasy"
+                  >
+                    Science Fiction and Fantasy
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/spirituality-and-philosophy"
+                    title="Spirituality and Philosophy"
+                  >
+                    Spirituality and Philosophy
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/wellness-sports-and-outdoors"
+                    title="Wellness, Sports, and Outdoors"
+                  >
+                    Wellness, Sports, and Outdoors
+                  </a>
+                </li>
+                <hr
+                  class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+                  role="separator"
+                />
+                <li
+                  class="bg-primary-300 hover:bg-primary-400 bg-primary-500 hover:bg-primary-400"
+                >
+                  <a
+                    class="p-4 lg:px-10 lg:py-2 block"
+                    href="/category/young-adult"
+                    title="Young Adult"
+                  >
+                    Young Adult
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <hr
+          class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+          role="separator"
+        />
+        <li
+          class="bg-primary-300 hover:bg-primary-400"
+        >
+          <a
+            class="p-4 lg:px-10 lg:py-2 block"
+            href="/contact-us"
+            title="Contact Us"
+          >
+            Contact Us
+          </a>
+        </li>
+        <hr
+          class="shrink-0 border-none w-full h-divider bg-primary-200 lg:hidden"
+          role="separator"
+        />
+        <li
+          class="bg-primary-300 hover:bg-primary-400"
+        >
+          <a
+            class="p-4 lg:px-10 lg:py-2 block"
+            href="/blog"
+            title="Blog"
+          >
+            Blog
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

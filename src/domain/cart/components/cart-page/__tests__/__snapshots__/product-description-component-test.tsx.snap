@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDescription should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="h-fit"
+    >
+      <a
+        class="line-clamp-2"
+        href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+        title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+      >
+        <h2>
+          The Four Agreements: A Practical Guide to Personal Freedom
+        </h2>
+      </a>
+      <span
+        class="line-clamp-2 block text-sm"
+      >
+        by 
+        Don Miguel Ruiz
+      </span>
+      <span
+        class="block text-sm my-2"
+      >
+        ISBN: 
+        978-1-315-92574-5
+      </span>
+    </div>
+  </div>
+</div>
+`;

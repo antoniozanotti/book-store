@@ -10,7 +10,7 @@ export function UiFigureComponent({
   innerImgStyle,
   ...props
 }: UiFigureComponentInterface) {
-  const figureStyles = `bg-green-300"`;
+  const figureStyles = `bg-green-300`;
   props.className = props.className
     ? `${figureStyles} ${props.className}`
     : figureStyles;

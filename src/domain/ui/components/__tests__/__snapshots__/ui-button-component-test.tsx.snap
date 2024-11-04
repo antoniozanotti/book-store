@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UiButtonComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <button
+      class="bg-primary-900 font-bold p-4 text-primary-100"
+    >
+      Test
+    </button>
+  </div>
+</div>
+`;

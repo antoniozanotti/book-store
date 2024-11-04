@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`truncate should not truncate text 1`] = `"Antonio Zanotti"`;
+
+exports[`truncate should truncate text 1`] = `"An..."`;

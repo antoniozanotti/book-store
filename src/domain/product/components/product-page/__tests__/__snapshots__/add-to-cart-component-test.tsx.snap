@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToCartComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div>
+      <div
+        class="flex flex-col text-center border p-4"
+        data-testid="add-to-cart-component"
+      >
+        <span
+          class="text-2xl p-2"
+        >
+          $302.00
+        </span>
+        <button
+          class="bg-primary-900 font-bold p-4 text-primary-100 p-2"
+        >
+          ADD TO CART
+        </button>
+        <span
+          class="bg-primary-100 p-2 text-sm text-primary-900"
+        >
+          Ships in 1 to 3 days
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsByAuthorComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div>
+      <h3
+        class="font-primary text-pretty text-3xl mt-10"
+      >
+        Books Also Written by 
+        Donna Tartt
+      </h3>
+      <div
+        class="mt-2"
+      >
+        <div
+          class="flex flex-wrap justify-center gap-4"
+        >
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              href="/product/the-secret-history"
+              title="The Secret History by Donna Tartt"
+            >
+              <figure
+                class="bg-green-300 w-full sm:w-[187px] h-[249px] relative overflow-hidden"
+              >
+                <img
+                  alt="The Secret History"
+                  class="transition-all hover:-mt-[20px] w-full h-[269px] object-cover"
+                  data-nimg="1"
+                  decoding="async"
+                  height="269"
+                  loading="lazy"
+                  sizes="640px"
+                  src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0"
+                  srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_23,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_46,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_69,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_92,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_138,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_184,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_368,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_552,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_920,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_1078,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1191,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1553,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1726,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2761,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2946,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5523,g_auto/f_auto/q_auto/v1/product/the-secret-history?_a=BAVARSDW0 3840w"
+                  style="color: transparent;"
+                  width="187"
+                />
+              </figure>
+            </a>
+            <p
+              class="font-primary text-pretty text-2xl line-clamp-2 mt-2"
+            >
+              <a
+                href="/product/the-secret-history"
+                title="The Secret History by Donna Tartt"
+              >
+                The Secret History
+              </a>
+            </p>
+            <address
+              class="line-clamp-2"
+            >
+              by 
+              Donna Tartt
+            </address>
+          </article>
+          <article
+            class="p-5 w-full sm:w-[227px] h-[400px] text-sm text-pretty"
+          >
+            <a
+              class="flex items-center h-full"
+              href="/author/donna-tartt"
+              rel="author"
+              title="Donna Tartt"
+            >
+              <span>
+                See all books by 
+                Donna Tartt
+                .
+              </span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

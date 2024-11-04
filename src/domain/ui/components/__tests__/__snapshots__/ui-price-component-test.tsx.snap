@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UiPriceComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    $302.00
+  </div>
+</div>
+`;

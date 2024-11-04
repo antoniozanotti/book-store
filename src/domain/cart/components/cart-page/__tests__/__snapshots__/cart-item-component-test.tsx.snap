@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItemComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <li
+      class="py-4 border-b grid grid-cols-[145px_calc(100%-145px-16px)] gap-4"
+    >
+      <a
+        class="w-[145px] lg:row-span-2"
+        href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+        title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+      >
+        <figure
+          class="bg-green-300 w-[145px] h-[193px] relative"
+        >
+          <img
+            alt="The Four Agreements: A Practical Guide to Personal Freedom"
+            class="transition-all object-cover w-full h-full"
+            data-nimg="1"
+            decoding="async"
+            height="193"
+            loading="lazy"
+            sizes="145px"
+            src="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5111,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0"
+            srcset="https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_16,h_21,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 16w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_32,h_42,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 32w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_48,h_63,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 48w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_64,h_85,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 64w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_96,h_127,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 96w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_128,h_170,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 128w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_256,h_340,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 256w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_384,h_511,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 384w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_640,h_851,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 640w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_750,h_998,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 750w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_828,h_1102,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 828w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1080,h_1437,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1080w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1200,h_1597,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1200w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_1920,h_2555,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 1920w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_2048,h_2725,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 2048w, https://res.cloudinary.com/dulz2k2my/image/upload/c_auto,w_3840,h_5111,g_auto/f_auto/q_auto/v1/product/the-four-agreements-a-practical-guide-to-personal-freedom?_a=BAVARSDW0 3840w"
+            style="color: transparent;"
+            width="145"
+          />
+        </figure>
+      </a>
+      <div
+        class="h-fit"
+      >
+        <a
+          class="line-clamp-2"
+          href="/product/the-four-agreements-a-practical-guide-to-personal-freedom"
+          title="The Four Agreements: A Practical Guide to Personal Freedom by Don Miguel Ruiz"
+        >
+          <h2>
+            The Four Agreements: A Practical Guide to Personal Freedom
+          </h2>
+        </a>
+        <span
+          class="line-clamp-2 block text-sm"
+        >
+          by 
+          Don Miguel Ruiz
+        </span>
+        <span
+          class="block text-sm my-2"
+        >
+          ISBN: 
+          978-1-315-92574-5
+        </span>
+      </div>
+      <div
+        class="flex gap-2 h-fit self-end col-span-2 lg:col-auto"
+      >
+        <button
+          class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-0 bg-transparent text-red-700"
+        >
+          remove
+        </button>
+        <div
+          class="border-y border-primary-900 flex gap-2 items-center"
+        >
+          <button
+            aria-label="decrease quantity"
+            class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-1.5"
+          >
+            <svg
+              class="lucide lucide-minus "
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+            </svg>
+          </button>
+          <div
+            aria-label="quantity"
+            class="w-10 text-center text-sm"
+          >
+            1
+          </div>
+          <button
+            aria-label="increase quantity"
+            class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-1.5"
+          >
+            <svg
+              class="lucide lucide-plus "
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="M12 5v14"
+              />
+            </svg>
+          </button>
+        </div>
+        <span
+          class="font-bold grow flex items-end justify-end"
+        >
+          <span
+            aria-label="cart item subtotal"
+          >
+            $302.00
+          </span>
+        </span>
+      </div>
+    </li>
+  </div>
+</div>
+`;

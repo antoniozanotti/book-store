@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorIntroComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="p-10"
+    >
+      <h1
+        class="font-primary text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+      >
+        Don Miguel Ruiz
+      </h1>
+      <p
+        class="mt-4"
+      >
+        Victus nisi carus consequuntur tubineus nostrum. Harum umquam vaco patruus absens. Corrigo vereor molestiae cresco varietas depraedor cetera.
+      </p>
+    </div>
+  </div>
+</div>
+`;

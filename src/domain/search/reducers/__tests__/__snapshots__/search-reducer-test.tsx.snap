@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should update categories 1`] = `
+{
+  "categories": [
+    "a",
+    "b",
+  ],
+  "keyword": "",
+  "maxprice": 499,
+  "maxyear": 2024,
+  "minprice": 20,
+  "minyear": 1990,
+  "orderby": "name",
+}
+`;
+
+exports[`About should update keyword 1`] = `
+{
+  "categories": [
+    "",
+  ],
+  "keyword": "Test",
+  "maxprice": 499,
+  "maxyear": 2024,
+  "minprice": 20,
+  "minyear": 1990,
+  "orderby": "name",
+}
+`;
+
+exports[`About should update orderby 1`] = `
+{
+  "categories": [],
+  "keyword": "",
+  "maxprice": 499,
+  "maxyear": 2024,
+  "minprice": 20,
+  "minyear": 1990,
+  "orderby": "price",
+}
+`;
+
+exports[`About should update price 1`] = `
+{
+  "categories": [],
+  "keyword": "",
+  "maxprice": 20,
+  "maxyear": 2024,
+  "minprice": 10,
+  "minyear": 1990,
+  "orderby": "name",
+}
+`;
+
+exports[`About should update year 1`] = `
+{
+  "categories": [],
+  "keyword": "",
+  "maxprice": 499,
+  "maxyear": 2010,
+  "minprice": 20,
+  "minyear": 2005,
+  "orderby": "name",
+}
+`;

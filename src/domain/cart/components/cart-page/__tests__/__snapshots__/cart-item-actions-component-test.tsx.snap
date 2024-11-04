@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItemActions should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <div
+      class="flex gap-2 h-fit self-end col-span-2 lg:col-auto"
+    >
+      <button
+        class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-0 bg-transparent text-red-700"
+      >
+        remove
+      </button>
+      <div
+        class="border-y border-primary-900 flex gap-2 items-center"
+      >
+        <button
+          aria-label="decrease quantity"
+          class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-1.5"
+        >
+          <svg
+            class="lucide lucide-minus "
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12h14"
+            />
+          </svg>
+        </button>
+        <div
+          aria-label="quantity"
+          class="w-10 text-center text-sm"
+        >
+          1
+        </div>
+        <button
+          aria-label="increase quantity"
+          class="bg-primary-900 font-bold p-4 text-primary-100 text-sm p-1.5"
+        >
+          <svg
+            class="lucide lucide-plus "
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12h14"
+            />
+            <path
+              d="M12 5v14"
+            />
+          </svg>
+        </button>
+      </div>
+      <span
+        class="font-bold grow flex items-end justify-end"
+      >
+        <span
+          aria-label="cart item subtotal"
+        >
+          $302.00
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

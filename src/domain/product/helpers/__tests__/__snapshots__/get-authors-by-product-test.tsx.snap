@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getAuthorsByProduct should return authors by product 1`] = `"Don Miguel Ruiz"`;

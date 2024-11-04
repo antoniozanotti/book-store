@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorService should return author with products 1`] = `
+{
+  "books": [
+    {
+      "authors": [
+        {
+          "description": "Arbor color cras trepide commodi illo dolores porro harum. Versus error maxime substantia conor animadverto traho spiculum sed. Vulgivagus amo supra solio correptius strues corroboro speculum.",
+          "id": 1,
+          "name": "Kevin Kwan",
+          "pageId": 18,
+        },
+      ],
+      "id": 1,
+      "pages": 443,
+      "product": {
+        "book": {
+          "authors": [
+            {
+              "description": "Arbor color cras trepide commodi illo dolores porro harum. Versus error maxime substantia conor animadverto traho spiculum sed. Vulgivagus amo supra solio correptius strues corroboro speculum.",
+              "id": 1,
+              "name": "Kevin Kwan",
+              "pageId": 18,
+            },
+          ],
+          "id": 1,
+          "pages": 443,
+          "productId": 1,
+          "publisherId": 1,
+          "year": 2018,
+        },
+        "description": "Carbo suscipit stips eligendi ago canonicus coepi. Caput suppellex tondeo auctor tabgo asperiores. Argumentum speciosus nulla antea aranea astrum turbo thorax.",
+        "id": 1,
+        "isbn": "978-1-7900-7991-9",
+        "name": "Crazy Rich Asians",
+        "page": {
+          "description": "Carbo suscipit stips eligendi ago canonicus coepi. Caput suppellex tondeo auctor tabgo asperiores. Argumentum speciosus nulla antea aranea astrum turbo thora...",
+          "id": 16,
+          "slug": "crazy-rich-asians",
+          "title": "Book Crazy Rich Asians",
+          "type": "product",
+        },
+        "pageId": 16,
+        "price": "29",
+      },
+      "productId": 1,
+      "publisherId": 1,
+      "year": 2018,
+    },
+  ],
+  "description": "Arbor color cras trepide commodi illo dolores porro harum. Versus error maxime substantia conor animadverto traho spiculum sed. Vulgivagus amo supra solio correptius strues corroboro speculum.",
+  "id": 1,
+  "name": "Kevin Kwan",
+  "pageId": 18,
+}
+`;
+
+exports[`AuthorService should return authors with pages 1`] = `
+[
+  {
+    "description": "Arbor color cras trepide commodi illo dolores porro harum. Versus error maxime substantia conor animadverto traho spiculum sed. Vulgivagus amo supra solio correptius strues corroboro speculum.",
+    "id": 1,
+    "name": "Kevin Kwan",
+    "page": {
+      "description": "Arbor color cras trepide commodi illo dolores porro harum. Versus error maxime substantia conor animadverto traho spiculum sed. Vulgivagus amo supra solio co...",
+      "id": 18,
+      "slug": "kevin-kwan",
+      "title": "Kevin Kwan's Books",
+      "type": "author",
+    },
+    "pageId": 18,
+  },
+  {
+    "description": "Tero versus aliquid tempus argumentum blanditiis angulus quibusdam baiulus quia. Corporis coniecto amet ab laborum conculco iusto vigilo. Accusamus adhuc voluptate virtus teneo cedo.",
+    "id": 2,
+    "name": "Julia Cameron",
+    "page": {
+      "description": "Tero versus aliquid tempus argumentum blanditiis angulus quibusdam baiulus quia. Corporis coniecto amet ab laborum conculco iusto vigilo. Accusamus adhuc vol...",
+      "id": 21,
+      "slug": "julia-cameron",
+      "title": "Julia Cameron's Books",
+      "type": "author",
+    },
+    "pageId": 21,
+  },
+  {
+    "description": "Terminatio vero terra tot. Ara provident adopto facere advenio adiuvo bis teres apparatus. Arbustum sulum absens asper cerno arguo.",
+    "id": 3,
+    "name": "David Byrne",
+    "page": {
+      "description": "Terminatio vero terra tot. Ara provident adopto facere advenio adiuvo bis teres apparatus. Arbustum sulum absens asper cerno arguo.",
+      "id": 24,
+      "slug": "david-byrne",
+      "title": "David Byrne's Books",
+      "type": "author",
+    },
+    "pageId": 24,
+  },
+  {
+    "description": "Mollitia alius uter. Auditor deleo vacuus amicitia virtus super. Vesica sto derelinquo uxor deserunt succurro caveo una.",
+    "id": 4,
+    "name": "Donna Tartt",
+    "page": {
+      "description": "Mollitia alius uter. Auditor deleo vacuus amicitia virtus super. Vesica sto derelinquo uxor deserunt succurro caveo una.",
+      "id": 27,
+      "slug": "donna-tartt",
+      "title": "Donna Tartt's Books",
+      "type": "author",
+    },
+    "pageId": 27,
+  },
+  {
+    "description": "Verbum harum ex argumentum vehemens alienus degero animus aeternus. Crapula alius verus curatio texo. Suggero ambitus tepesco patria certus.",
+    "id": 5,
+    "name": "Jeremy McCarter",
+    "page": {
+      "description": "Verbum harum ex argumentum vehemens alienus degero animus aeternus. Crapula alius verus curatio texo. Suggero ambitus tepesco patria certus.",
+      "id": 30,
+      "slug": "jeremy-mccarter",
+      "title": "Jeremy McCarter's Books",
+      "type": "author",
+    },
+    "pageId": 30,
+  },
+  {
+    "description": "Damno sortitus trucido atque auctor bis maiores abundans. Officiis impedit dapifer expedita universe sollicito derideo suus. Arbustum comminor taedium aureus mollitia suadeo spiritus.",
+    "id": 6,
+    "name": "Lin-Manuel Miranda",
+    "page": {
+      "description": "Damno sortitus trucido atque auctor bis maiores abundans. Officiis impedit dapifer expedita universe sollicito derideo suus. Arbustum comminor taedium aureus...",
+      "id": 31,
+      "slug": "linmanuel-miranda",
+      "title": "Lin-Manuel Miranda's Books",
+      "type": "author",
+    },
+    "pageId": 31,
+  },
+]
+`;

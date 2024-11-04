@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorsWithLinkComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <address>
+      by 
+      <a
+        class="underline"
+        href="/author/kevin-kwan"
+        rel="author"
+        title="Kevin Kwan"
+      >
+        Kevin Kwan
+      </a>
+       and 
+      <a
+        class="underline"
+        href="/author/julia-cameron"
+        rel="author"
+        title="Julia Cameron"
+      >
+        Julia Cameron
+      </a>
+       and 
+      <a
+        class="underline"
+        href="/author/david-byrne"
+        rel="author"
+        title="David Byrne"
+      >
+        David Byrne
+      </a>
+       and 
+      <a
+        class="underline"
+        href="/author/donna-tartt"
+        rel="author"
+        title="Donna Tartt"
+      >
+        Donna Tartt
+      </a>
+       and 
+      <a
+        class="underline"
+        href="/author/jeremy-mccarter"
+        rel="author"
+        title="Jeremy McCarter"
+      >
+        Jeremy McCarter
+      </a>
+       and 
+      <a
+        class="underline"
+        href="/author/linmanuel-miranda"
+        rel="author"
+        title="Lin-Manuel Miranda"
+      >
+        Lin-Manuel Miranda
+      </a>
+    </address>
+  </div>
+</div>
+`;

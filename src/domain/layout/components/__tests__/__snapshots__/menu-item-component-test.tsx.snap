@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItemComponent should render with link 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <li
+      class="bg-primary-300 hover:bg-primary-400"
+    >
+      <a
+        class="p-4 lg:px-10 lg:py-2 block"
+        href="test"
+        title="test"
+      >
+        Test
+      </a>
+    </li>
+  </div>
+</div>
+`;
+
+exports[`MenuItemComponent should render without link 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <li
+      class="bg-primary-300 hover:bg-primary-400"
+    >
+      Test
+    </li>
+  </div>
+</div>
+`;

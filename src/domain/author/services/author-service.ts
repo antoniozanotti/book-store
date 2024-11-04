@@ -1,5 +1,5 @@
-import { AuthorWithProductsPrisma } from "../types/author-prisma";
 import prisma from "@/lib/db";
+import { AuthorWithProductsPrisma } from "../types/author-prisma";
 import { AuthorWithPagePrisma } from "../types/author-prisma";
 
 export async function getAuthorBySlug(

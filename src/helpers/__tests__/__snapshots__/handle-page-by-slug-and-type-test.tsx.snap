@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handlePageBySlugAndType should return title and description 1`] = `
+{
+  "description": "Canto eum versus somniculosus mollitia conforto celebrer iste. Surculus facere vix acceptus. Cohaero demo sufficio venio autus animi ex adversus quam.",
+  "title": "Book The Four Agreements: A Practical Guide to Personal F...",
+}
+`;

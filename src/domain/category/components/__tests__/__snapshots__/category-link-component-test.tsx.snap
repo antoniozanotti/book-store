@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryLinkComponent should render 1`] = `
+<div>
+  <div
+    data-testid="container"
+  >
+    <a
+      href="/category/arts-and-entertainment"
+      title="Arts and Entertainment"
+    >
+      Test
+    </a>
+  </div>
+</div>
+`;
